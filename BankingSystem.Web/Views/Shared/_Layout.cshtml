@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Banking System</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+
+    <!-- TOP NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <span class="navbar-brand fw-bold">🏦 Core Banking System</span>
+        </div>
+        <div class="ms-auto">
+            <span class="text-white me-3">
+                👤 @User.Identity.Name
+            </span>
+            <a asp-controller="Auth" asp-action="Logout" class="btn btn-sm btn-danger">
+                Logout
+            </a>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- SIDEBAR -->
+            <div class="col-md-2 bg-light vh-100 p-3 border-end">
+                <h6 class="text-muted">MENU</h6>
+                
+
+                    <ul class="nav flex-column">
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Dashboard" asp-action="Index">
+                                📊 Dashboard
+                            </a>
+                        </li>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <div class="col-md-4">
+                            <div class="card p-4 shadow-sm text-center">
+                                <h5>👤 Manage Customers</h5>
+                                <a asp-controller="Customer" asp-action="Index" class="btn btn-primary mt-3">
+                                    View Customers
+                                </a>
+                            </div>
+                        </div>
+                    }
+
+                        @if (User.IsInRole("Admin") || User.IsInRole("Teller"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Account" asp-action="Index">
+                                    💳 Accounts
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Transaction" asp-action="Deposit">
+                                    💰 Transactions
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Transaction" asp-action="Transfer">
+                                    💸 Fund Transfer
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Transaction" asp-action="Statement">
+                                    📑 Account Statement
+                                </a>
+                            </li>
+                        }
+
+                    </ul>
+                
+            </div>
+
+            <!-- MAIN CONTENT -->
+            <div class="col-md-10 p-4">
+                @RenderBody()
+            </div>
+
+        </div>
+    </div>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+@import '_content/BankingSystem.Common/BankingSystem.Common.ejoscr6ird.bundle.scp.css';
+@import '_content/BankingSystem.Entities/BankingSystem.Entities.kv7s4wh1kv.bundle.scp.css';
+
+/* _content/BankingSystem.DAL/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-nz03zthbqa] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-nz03zthbqa] {
+  color: #0077cc;
+}
+
+.btn-primary[b-nz03zthbqa] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-nz03zthbqa], .nav-pills .show > .nav-link[b-nz03zthbqa] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-nz03zthbqa] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-nz03zthbqa] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-nz03zthbqa] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-nz03zthbqa] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-nz03zthbqa] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

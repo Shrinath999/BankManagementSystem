@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Fund Transfer";
+}
+
+<h2>Fund Transfer</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+<form asp-action="Transfer" method="post">
+
+    <div class="mb-3">
+        <label>From Account</label>
+        <select name="fromAccountId" class="form-control" required>
+            <option value="">-- Select Sender --</option>
+            @foreach (var account in ViewBag.Accounts)
+            {
+                <option value="@account.AccountId">
+                    @account.AccountNumber - @account.AccountType (Balance: @account.Balance)
+                </option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>To Account</label>
+        <select name="toAccountId" class="form-control" required>
+            <option value="">-- Select Receiver --</option>
+            @foreach (var account in ViewBag.Accounts)
+            {
+                <option value="@account.AccountId">
+                    @account.AccountNumber - @account.AccountType (Balance: @account.Balance)
+                </option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Amount</label>
+        <input type="number" step="0.01" name="amount" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Transfer</button>
+
+</form>

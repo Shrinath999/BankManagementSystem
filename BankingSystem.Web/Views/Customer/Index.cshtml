@@ -1,0 +1,22 @@
+﻿@model IEnumerable<BankingSystem.Entities.Models.Customer>
+
+<h2>Customer List</h2>
+
+<a asp-action="Create" class="btn btn-primary">Add Customer</a>
+
+<table class="table table-bordered mt-3">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FullName</td>
+            <td>@item.Email</td>
+            <td>@item.Phone</td>
+        </tr>
+    }
+</table>

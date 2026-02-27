@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container-fluid">
+
+    <!-- Page Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">📊 Banking Dashboard</h2>
+        <span class="text-muted">Welcome to Core Banking System</span>
+    </div>
+
+    <!-- Statistics Cards Row 1 -->
+    <div class="row g-4">
+
+        <!-- Total Customers -->
+        <div class="col-md-3">
+            <div class="card shadow border-0 bg-primary text-white h-100">
+                <div class="card-body">
+                    <h6 class="card-title">Total Customers</h6>
+                    <h3 class="fw-bold">@ViewBag.TotalCustomers</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Total Accounts -->
+        <div class="col-md-3">
+            <div class="card shadow border-0 bg-success text-white h-100">
+                <div class="card-body">
+                    <h6 class="card-title">Total Accounts</h6>
+                    <h3 class="fw-bold">@ViewBag.TotalAccounts</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Total Transactions -->
+        <div class="col-md-3">
+            <div class="card shadow border-0 bg-warning text-dark h-100">
+                <div class="card-body">
+                    <h6 class="card-title">Total Transactions</h6>
+                    <h3 class="fw-bold">@ViewBag.TotalTransactions</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Total Bank Balance -->
+        <div class="col-md-3">
+            <div class="card shadow border-0 bg-danger text-white h-100">
+                <div class="card-body">
+                    <h6 class="card-title">Total Bank Balance</h6>
+                    <h3 class="fw-bold">₹ @ViewBag.TotalBalance</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Divider -->
+    <hr class="my-5" />
+
+    <!-- Quick Actions -->
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card p-4 shadow-sm text-center">
+                <h5>👤 Manage Customers</h5>
+                <a asp-controller="Customer" asp-action="Index" class="btn btn-primary mt-3">
+                    View Customers
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <h5 class="mb-3">💳 Open Account</h5>
+                    <a asp-controller="Account" asp-action="Create" class="btn btn-outline-success">
+                        Create Account
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body text-center">
+                    <h5 class="mb-3">💸 Fund Transfer</h5>
+                    <a asp-controller="Transaction" asp-action="Transfer" class="btn btn-outline-danger">
+                        Transfer Money
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,43 @@
+﻿@model BankingSystem.Entities.Models.Account
+
+<h2>Open Account</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+<form asp-action="Create" method="post">
+
+    <div class="mb-3">
+        <label>Select Customer</label>
+        <select asp-for="CustomerId" class="form-control">
+            <option value="">-- Select Customer --</option>
+            @foreach (var customer in ViewBag.Customers)
+            {
+                <option value="@customer.CustomerId">
+                    @customer.FullName
+                </option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Account Type</label>
+        <select asp-for="AccountType" class="form-control">
+            <option value="">-- Select Type --</option>
+            <option value="Savings">Savings</option>
+            <option value="Current">Current</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Initial Deposit</label>
+        <input asp-for="Balance" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Create Account</button>
+
+</form>

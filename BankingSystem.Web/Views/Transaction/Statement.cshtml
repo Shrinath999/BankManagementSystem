@@ -1,0 +1,119 @@
+﻿@model IEnumerable<BankingSystem.Entities.Models.Transaction>
+
+@{
+    ViewData["Title"] = "Account Statement";
+}
+
+<h2>📑 Account Statement</h2>    
+
+<form method="get" asp-action="Statement" class="mb-4">
+
+    <div class="row g-3">
+
+        <div class="col-md-3">
+            <label>Account</label>
+            <select name="accountId" class="form-control" required>
+                <option value="">-- Select Account --</option>
+                @foreach (var account in ViewBag.Accounts)
+                {
+                    <option value="@account.AccountId"
+                            selected="@(ViewBag.SelectedAccount == account.AccountId)">
+                        @account.AccountNumber - Balance: @account.Balance
+                    </option>
+                }
+            </select>
+        </div>
+
+        <div class="col-md-3">
+            <label>From Date</label>
+            <input type="date" name="fromDate" value="@ViewBag.FromDate?.ToString("yyyy-MM-dd")"
+                   class="form-control" />
+        </div>
+
+        <div class="col-md-3">
+            <label>To Date</label>
+            <input type="date" name="toDate" value="@ViewBag.ToDate?.ToString("yyyy-MM-dd")"
+                   class="form-control" />
+        </div>
+
+        <div class="col-md-3 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary w-100">
+                View Statement
+            </button>
+        </div>
+        @if (ViewBag.SelectedAccount != null)
+        {
+            <a asp-action="ExportStatement"
+               asp-route-accountId="@ViewBag.SelectedAccount"
+               asp-route-fromDate="@ViewBag.FromDate"
+               asp-route-toDate="@ViewBag.ToDate"
+               class="btn btn-success mt-3">
+                ⬇ Download Excel
+            </a>
+        }
+
+    </div>
+</form>
+@if (Model != null && Model.Any())
+{
+    decimal totalDebit = 0;
+    decimal totalCredit = 0;
+
+    foreach (var txn in Model)
+    {
+        if (txn.FromAccountId == ViewBag.SelectedAccount)
+            totalDebit += txn.Amount;
+
+        if (txn.ToAccountId == ViewBag.SelectedAccount)
+            totalCredit += txn.Amount;
+    }
+
+    decimal openingBalance = ViewBag.CurrentBalance - totalCredit + totalDebit;
+    decimal runningBalance = openingBalance;
+
+    <div class="alert alert-info">
+        Opening Balance: ₹ @openingBalance
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Type</th>
+                <th>Debit</th>
+                <th>Credit</th>
+                <th>Balance</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var txn in Model)
+            {
+                decimal debit = 0;
+                decimal credit = 0;
+
+                if (txn.FromAccountId == ViewBag.SelectedAccount)
+                {
+                    debit = txn.Amount;
+                    runningBalance -= debit;
+                }
+
+                if (txn.ToAccountId == ViewBag.SelectedAccount)
+                {
+                    credit = txn.Amount;
+                    runningBalance += credit;
+                }
+
+                <tr>
+                    <td>@txn.CreatedDate.ToString("dd-MM-yyyy HH:mm")</td>
+                    <td>@txn.TransactionType</td>
+                    <td>@(debit > 0 ? debit : 0)</td>
+                    <td>@(credit > 0 ? credit : 0)</td>
+                    <td>₹ @runningBalance</td>
+                </tr>
+
+               
+                
+            }
+        </tbody>
+    </table>
+}

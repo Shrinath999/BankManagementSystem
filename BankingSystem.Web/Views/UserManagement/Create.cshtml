@@ -1,0 +1,30 @@
+﻿@model BankingSystem.Web.ViewModels.CreateUserViewModel
+
+<h2>Create New User</h2>
+
+<form method="post">
+
+    <div class="mb-3">
+        <label>Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Password</label>
+        <input asp-for="Password" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Role</label>
+        <select asp-for="Role" class="form-control">
+            <option value="">-- Select Role --</option>
+            @foreach (var role in ViewBag.Roles)
+            {
+                <option value="@role.Name">@role.Name</option>
+            }
+        </select>
+    </div>
+
+    <button class="btn btn-success">Create User</button>
+
+</form>

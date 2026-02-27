@@ -1,0 +1,22 @@
+﻿@model IEnumerable<BankingSystem.Entities.Models.Account>
+
+<h2>Account List</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Open New Account</a>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Account Number</th>
+        <th>Type</th>
+        <th>Balance</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.AccountNumber</td>
+            <td>@item.AccountType</td>
+            <td>@item.Balance</td>
+        </tr>
+    }
+</table>
