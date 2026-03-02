@@ -150,6 +150,7 @@ E:\BankingSystem.Web\BankingSystem.Web\obj\Debug\net8.0\BankingSystem.Web.MvcApp
 E:\BankingSystem.Web\BankingSystem.Web\obj\Debug\net8.0\BankingSystem.Web.MvcApplicationPartsAssemblyInfo.cache
 E:\BankingSystem.Web\BankingSystem.Web\obj\Debug\net8.0\BankingSystem.Web.RazorAssemblyInfo.cache
 E:\BankingSystem.Web\BankingSystem.Web\obj\Debug\net8.0\BankingSystem.Web.RazorAssemblyInfo.cs
+E:\BankingSystem.Web\BankingSystem.Web\obj\Debug\net8.0\BankingSystem.Web.sourcelink.json
 E:\BankingSystem.Web\BankingSystem.Web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\BankingSystem.Web\BankingSystem.Web\obj\Debug\net8.0\scopedcss\bundle\BankingSystem.Web.styles.css
 E:\BankingSystem.Web\BankingSystem.Web\obj\Debug\net8.0\scopedcss\projectbundle\BankingSystem.Web.bundle.scp.css

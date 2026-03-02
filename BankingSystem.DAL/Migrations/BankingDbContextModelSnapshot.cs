@@ -110,6 +110,12 @@ namespace BankingSystem.DAL.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("ExternalAccountNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ExternalBankName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("FromAccountId")
                         .HasColumnType("int");
 
@@ -121,6 +127,10 @@ namespace BankingSystem.DAL.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("TransactionType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TransferType")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

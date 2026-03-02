@@ -23,4 +23,8 @@
     <ProjectReference Include="..\BankingSystem.Entities\BankingSystem.Entities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Database\" />
+  </ItemGroup>
+
 </Project>

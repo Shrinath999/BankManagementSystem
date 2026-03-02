@@ -76,6 +76,7 @@ E:\BankingSystem.Web\BankingSystem.BLL\obj\Debug\net8.0\BankingSystem.BLL.MvcApp
 E:\BankingSystem.Web\BankingSystem.BLL\obj\Debug\net8.0\BankingSystem.BLL.MvcApplicationPartsAssemblyInfo.cache
 E:\BankingSystem.Web\BankingSystem.BLL\obj\Debug\net8.0\BankingSystem.BLL.RazorAssemblyInfo.cache
 E:\BankingSystem.Web\BankingSystem.BLL\obj\Debug\net8.0\BankingSystem.BLL.RazorAssemblyInfo.cs
+E:\BankingSystem.Web\BankingSystem.BLL\obj\Debug\net8.0\BankingSystem.BLL.sourcelink.json
 E:\BankingSystem.Web\BankingSystem.BLL\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\BankingSystem.Web\BankingSystem.BLL\obj\Debug\net8.0\scopedcss\bundle\BankingSystem.BLL.styles.css
 E:\BankingSystem.Web\BankingSystem.BLL\obj\Debug\net8.0\scopedcss\projectbundle\BankingSystem.BLL.bundle.scp.css

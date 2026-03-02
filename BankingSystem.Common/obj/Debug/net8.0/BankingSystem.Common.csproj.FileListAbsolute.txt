@@ -14,6 +14,7 @@ E:\BankingSystem.Web\BankingSystem.Common\obj\Debug\net8.0\BankingSystem.Common.
 E:\BankingSystem.Web\BankingSystem.Common\obj\Debug\net8.0\BankingSystem.Common.MvcApplicationPartsAssemblyInfo.cache
 E:\BankingSystem.Web\BankingSystem.Common\obj\Debug\net8.0\BankingSystem.Common.RazorAssemblyInfo.cache
 E:\BankingSystem.Web\BankingSystem.Common\obj\Debug\net8.0\BankingSystem.Common.RazorAssemblyInfo.cs
+E:\BankingSystem.Web\BankingSystem.Common\obj\Debug\net8.0\BankingSystem.Common.sourcelink.json
 E:\BankingSystem.Web\BankingSystem.Common\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\BankingSystem.Web\BankingSystem.Common\obj\Debug\net8.0\scopedcss\bundle\BankingSystem.Common.styles.css
 E:\BankingSystem.Web\BankingSystem.Common\obj\Debug\net8.0\scopedcss\projectbundle\BankingSystem.Common.bundle.scp.css

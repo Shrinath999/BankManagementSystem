@@ -32,57 +32,62 @@
             <!-- SIDEBAR -->
             <div class="col-md-2 bg-light vh-100 p-3 border-end">
                 <h6 class="text-muted">MENU</h6>
-                
 
-                    <ul class="nav flex-column">
+                <ul class="nav flex-column">
 
+                    <!-- Dashboard -->
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Dashboard" asp-action="Index">
+                            📊 Dashboard
+                        </a>
+                    </li>
+
+                    <!-- Admin Only -->
+                    @if (User.IsInRole("Admin"))
+                    {
                         <li class="nav-item">
-                            <a class="nav-link" asp-controller="Dashboard" asp-action="Index">
-                                📊 Dashboard
+                            <a class="nav-link" asp-controller="Customer" asp-action="Index">
+                                👤 Customers
+                            </a>
+                        </li>
+                    }
+
+                    <!-- Admin + Teller -->
+                    @if (User.IsInRole("Admin") || User.IsInRole("Teller"))
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Account" asp-action="Index">
+                                💳 Accounts
                             </a>
                         </li>
 
-                    @if (User.IsInRole("Admin"))
-                    {
-                        <div class="col-md-4">
-                            <div class="card p-4 shadow-sm text-center">
-                                <h5>👤 Manage Customers</h5>
-                                <a asp-controller="Customer" asp-action="Index" class="btn btn-primary mt-3">
-                                    View Customers
-                                </a>
-                            </div>
-                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Transaction" asp-action="Deposit">
+                                💰 Deposit 
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Transaction" asp-action="Withdraw">
+                                🏧 Withdraw
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Transaction" asp-action="Transfer">
+                                💸 Fund Transfer
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Transaction" asp-action="Statement">
+                                📑 Account Statement
+                            </a>
+                        </li>
                     }
 
-                        @if (User.IsInRole("Admin") || User.IsInRole("Teller"))
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Account" asp-action="Index">
-                                    💳 Accounts
-                                </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Transaction" asp-action="Deposit">
-                                    💰 Transactions
-                                </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Transaction" asp-action="Transfer">
-                                    💸 Fund Transfer
-                                </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" asp-controller="Transaction" asp-action="Statement">
-                                    📑 Account Statement
-                                </a>
-                            </li>
-                        }
-
-                    </ul>
-                
+                </ul>
             </div>
 
             <!-- MAIN CONTENT -->
@@ -94,7 +99,7 @@
     </div>
 
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-
+    @await RenderSectionAsync("Scripts", required: false);
+    
 </body>
 </html>
