@@ -1,5 +1,6 @@
 ﻿using BankingSystem.DAL.Repositorie;
 using BankingSystem.Entities.Models;
+using Microsoft.Identity.Client;
 using static BankingSystem.DAL.Repositorie.IGenericRepository;
 
 namespace BankingSystem.BLL.Services
@@ -33,10 +34,10 @@ namespace BankingSystem.BLL.Services
                 ToAccountId = accountId,
                 Amount = amount,
                 TransactionType = "Deposit",
+                TransferType = "Deposit",   // 🔥 ADD THIS
                 Status = "Success",
                 CreatedDate = DateTime.Now
             });
-
             await _accountRepo.SaveAsync();
         }
 
@@ -63,6 +64,7 @@ namespace BankingSystem.BLL.Services
                 FromAccountId = accountId,
                 Amount = amount,
                 TransactionType = "Withdraw",
+                TransferType = "Withdraw",   // 🔥 ADD THIS
                 Status = "Success",
                 CreatedDate = DateTime.Now
             });
@@ -99,9 +101,9 @@ namespace BankingSystem.BLL.Services
             await _transactionRepo.InsertAsync(new Transaction
             {
                 FromAccountId = fromAccountId,
-                ToAccountId = toAccountId,
                 Amount = amount,
-                TransactionType = "Transfer-Debit",
+                TransactionType = "Withdraw",
+                TransferType = "Withdraw",   // 🔥 ADD THIS
                 Status = "Success",
                 CreatedDate = DateTime.Now
             });
@@ -113,10 +115,10 @@ namespace BankingSystem.BLL.Services
                 ToAccountId = toAccountId,
                 Amount = amount,
                 TransactionType = "Transfer-Credit",
+                TransferType = "Internal",   // 🔥 ADD THIS
                 Status = "Success",
                 CreatedDate = DateTime.Now
             });
-
             await _accountRepo.SaveAsync();
         }
         public async Task<IEnumerable<Transaction>> GetAccountStatementAsync(int accountId)
@@ -128,6 +130,69 @@ namespace BankingSystem.BLL.Services
                          || t.ToAccountId == accountId)
                 .OrderBy(t => t.CreatedDate)   // ascending order
                 .ToList();
+        }
+
+        public async Task ProcessTransferAsync(
+     int fromAccountId,
+     int? toAccountId,
+     decimal amount,
+     string transferType,
+     string externalAccountNumber,
+     string bankName)
+        {
+            var fromAccount = await _accountRepo.GetByIdAsync(fromAccountId);
+
+            if (fromAccount == null)
+                throw new Exception("Account not found");
+
+            if (fromAccount.Balance < amount)
+                throw new Exception("Insufficient Balance");
+
+            // Deduct balance
+            fromAccount.Balance -= amount;
+            _accountRepo.Update(fromAccount);
+
+            // Internal transfer → add to receiver
+            if (transferType == "internal" && toAccountId.HasValue)
+            {
+                var toAccount = await _accountRepo.GetByIdAsync(toAccountId.Value);
+
+                if (toAccount == null)
+                    throw new Exception("Receiver account not found");
+
+                toAccount.Balance += amount;
+                _accountRepo.Update(toAccount);
+            }
+
+           
+
+            // 🔥 VERY IMPORTANT — Set TransferType properly
+            var transaction = new Transaction
+            {
+                FromAccountId = fromAccountId,
+                ToAccountId = transferType == "internal" ? toAccountId : null,
+                Amount = amount,
+
+                // This is existing column
+                TransactionType = transferType == "external"
+                                    ? "ExternalTransfer"
+                                    : "InternalTransfer",
+
+                // 🔥 This is the NEW NOT NULL column
+                TransferType = transferType,
+
+                Status = "Success",
+                CreatedDate = DateTime.Now,
+                ExternalAccountNumber = transferType == "external"
+                                            ? externalAccountNumber
+                                            : null,
+                ExternalBankName = transferType == "external"
+                                            ? bankName
+                                            : null
+            };
+
+            await _transactionRepo.InsertAsync(transaction);
+            await _transactionRepo.SaveAsync();
         }
     }
 }

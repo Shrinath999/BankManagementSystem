@@ -8,5 +8,12 @@ namespace BankingSystem.BLL.Services
         Task WithdrawAsync(int accountId, decimal amount);
         Task TransferAsync(int fromAccountId, int toAccountId, decimal amount);
         Task<IEnumerable<Transaction>> GetAccountStatementAsync(int accountId);
+        Task ProcessTransferAsync(
+    int fromAccountId,
+    int? toAccountId,
+    decimal amount,
+    string transferType,
+    string externalAccountNumber,
+    string bankName);
     }
 }

@@ -26,7 +26,7 @@
         </select>
     </div>
 
-    <div class="mb-3">
+   @*  <div class="mb-3">
         <label>To Account</label>
         <select name="toAccountId" class="form-control" required>
             <option value="">-- Select Receiver --</option>
@@ -37,7 +37,68 @@
                 </option>
             }
         </select>
+    </div> *@
+    <div class="mb-3">
+        <label>Transfer Type</label>
+        <select id="transferType" name="transferType" class="form-control" onchange="toggleTransfer()">
+            <option value="internal">Internal (Same Bank)</option>
+            <option value="external">External (Other Bank)</option>
+        </select>
     </div>
+
+    <!-- Internal Account Dropdown -->
+    <div class="mb-3" id="internalSection">
+        <label>To Account</label>
+        <select name="ToAccountId" class="form-control">
+            <option value="">-- Select Receiver --</option>
+            @foreach (var account in ViewBag.Accounts)
+            {
+                <option value="@account.AccountId">
+                    @account.AccountNumber - Balance: @account.Balance
+                </option>
+            }
+        </select>
+    </div>
+
+    <!-- External Transfer Section -->
+    <div id="externalSection" style="display:none">
+
+        <div class="mb-3">
+            <label>Select Bank</label>
+            <select name="BankName" class="form-control">
+                <option>HDFC Bank</option>
+                <option>ICICI Bank</option>
+                <option>SBI</option>
+                <option>Axis Bank</option>
+                <option>Kotak Bank</option>
+                <option>Yes Bank</option>
+                <option>Bank of Baroda</option>
+                <option>Punjab National Bank</option>
+                <option>IDFC Bank</option>
+                <option>IndusInd Bank</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label>Receiver Account Number</label>
+            <input type="text" name="ExternalAccountNumber" class="form-control" />
+        </div>
+
+    </div>
+
+    <script>
+        function toggleTransfer() {
+            var type = document.getElementById("transferType").value;
+
+            if (type === "external") {
+                document.getElementById("internalSection").style.display = "none";
+                document.getElementById("externalSection").style.display = "block";
+            } else {
+                document.getElementById("internalSection").style.display = "block";
+                document.getElementById("externalSection").style.display = "none";
+            }
+        }
+    </script>
 
     <div class="mb-3">
         <label>Amount</label>

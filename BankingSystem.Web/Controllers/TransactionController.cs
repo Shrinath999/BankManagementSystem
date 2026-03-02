@@ -69,7 +69,6 @@ namespace BankingSystem.Web.Controllers
             }
         }
 
-
         // GET: Transfer Page
         public async Task<IActionResult> Transfer()
         {
@@ -77,21 +76,24 @@ namespace BankingSystem.Web.Controllers
             return View();
         }
 
-        // POST: Transfer
         [HttpPost]
-        public async Task<IActionResult> Transfer(int fromAccountId, int toAccountId, decimal amount)
+        public async Task<IActionResult> Transfer(
+        int fromAccountId,
+        int? toAccountId,
+        string transferType,
+        string BankName,
+        string ExternalAccountNumber,
+        decimal amount)
         {
-            try
-            {
-                await _transactionService.TransferAsync(fromAccountId, toAccountId, amount);
-                return RedirectToAction("Transfer");
-            }
-            catch (Exception ex)
-            {
-                ViewBag.Error = ex.Message;
-                ViewBag.Accounts = await _accountRepo.GetAllAsync();
-                return View();
-            }
+            await _transactionService.ProcessTransferAsync(
+                fromAccountId,
+                toAccountId,
+                amount,
+                transferType,
+                ExternalAccountNumber,
+                BankName);
+
+            return RedirectToAction("Index", "Dashboard");
         }
         // GET: Statement
         public async Task<IActionResult> Statement(int? accountId, DateTime? fromDate, DateTime? toDate)

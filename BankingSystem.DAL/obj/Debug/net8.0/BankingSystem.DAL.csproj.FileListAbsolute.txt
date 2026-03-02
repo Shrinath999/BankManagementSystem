@@ -135,6 +135,7 @@ E:\BankingSystem.Web\BankingSystem.DAL\obj\Debug\net8.0\BankingSystem.DAL.MvcApp
 E:\BankingSystem.Web\BankingSystem.DAL\obj\Debug\net8.0\BankingSystem.DAL.MvcApplicationPartsAssemblyInfo.cache
 E:\BankingSystem.Web\BankingSystem.DAL\obj\Debug\net8.0\BankingSystem.DAL.RazorAssemblyInfo.cache
 E:\BankingSystem.Web\BankingSystem.DAL\obj\Debug\net8.0\BankingSystem.DAL.RazorAssemblyInfo.cs
+E:\BankingSystem.Web\BankingSystem.DAL\obj\Debug\net8.0\BankingSystem.DAL.sourcelink.json
 E:\BankingSystem.Web\BankingSystem.DAL\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\BankingSystem.Web\BankingSystem.DAL\obj\Debug\net8.0\scopedcss\bundle\BankingSystem.DAL.styles.css
 E:\BankingSystem.Web\BankingSystem.DAL\obj\Debug\net8.0\scopedcss\projectbundle\BankingSystem.DAL.bundle.scp.css

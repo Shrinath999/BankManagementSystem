@@ -17,5 +17,9 @@
 
         public Account FromAccount { get; set; }
         public Account ToAccount { get; set; }
+
+        public string? ExternalBankName { get; set; }
+        public string? ExternalAccountNumber { get; set; }
+        public string TransferType { get; set; }
     }
 }
