@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T4Cc6bMRJlpysTPw1aMiMq8AWGJ/52lKlDkZdgsKDxM=",
+  "Hash": "AslJnHHB5FnnWwrneA2PuBmXu0UATMj9tBLqJjVXj14=",
   "Source": "BankingSystem.Web",
   "BasePath": "_content/BankingSystem.Web",
   "Mode": "Default",
@@ -1462,8 +1462,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bf60gq8zl1",
-      "Integrity": "hxgTeEYDQyA5WyEDmpZQMsktP+SxmZBlPWkN/qqcyyo=",
+      "Fingerprint": "pht9arp5bi",
+      "Integrity": "jWOpCr/RXZ02bbItYxaBZ3drHMhHH40PPV1BK70O9MI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2736,7 +2736,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:42 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2781,7 +2781,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:42 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2818,7 +2818,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:37 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2855,7 +2855,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:37 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2900,7 +2900,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:40 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:07 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2945,7 +2945,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:40 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:07 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2982,7 +2982,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:38 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3019,7 +3019,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:38 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3060,7 +3060,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:45 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3097,7 +3097,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:45 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3146,7 +3146,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:45 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:12 GMT"
         },
         {
           "Name": "Link",
@@ -3195,7 +3195,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:45 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:12 GMT"
         },
         {
           "Name": "Link",
@@ -3210,51 +3210,6 @@
       ]
     },
     {
-      "Route": "css/site.bf60gq8zl1.css",
-      "AssetFile": "E:\\BankingSystem.Web\\BankingSystem.Web\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "532"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hxgTeEYDQyA5WyEDmpZQMsktP+SxmZBlPWkN/qqcyyo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Mar 2026 15:29:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bf60gq8zl1"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hxgTeEYDQyA5WyEDmpZQMsktP+SxmZBlPWkN/qqcyyo="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "E:\\BankingSystem.Web\\BankingSystem.Web\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -3265,7 +3220,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "532"
+          "Value": "2938"
         },
         {
           "Name": "Content-Type",
@@ -3273,11 +3228,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hxgTeEYDQyA5WyEDmpZQMsktP+SxmZBlPWkN/qqcyyo=\""
+          "Value": "\"jWOpCr/RXZ02bbItYxaBZ3drHMhHH40PPV1BK70O9MI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Mar 2026 15:29:23 GMT"
+          "Value": "Wed, 04 Mar 2026 08:15:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3287,7 +3242,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hxgTeEYDQyA5WyEDmpZQMsktP+SxmZBlPWkN/qqcyyo="
+          "Value": "sha256-jWOpCr/RXZ02bbItYxaBZ3drHMhHH40PPV1BK70O9MI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.pht9arp5bi.css",
+      "AssetFile": "E:\\BankingSystem.Web\\BankingSystem.Web\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2938"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jWOpCr/RXZ02bbItYxaBZ3drHMhHH40PPV1BK70O9MI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 04 Mar 2026 08:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pht9arp5bi"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jWOpCr/RXZ02bbItYxaBZ3drHMhHH40PPV1BK70O9MI="
         }
       ]
     },

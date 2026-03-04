@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BankingSystem.Web.ViewModels.UserListViewModel>
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>🔐 User Management</h2>
+
+    <a asp-action="Create" class="btn btn-success">
+        ➕ Create User
+    </a>
+</div>
+
+<table class="table table-bordered table-striped shadow-sm">
+    <thead class="table-dark">
+        <tr>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>@user.Role</td>
+                <td>
+                    @if (user.IsLocked)
+                    {
+                        <span class="badge bg-danger">Locked</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success">Active</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

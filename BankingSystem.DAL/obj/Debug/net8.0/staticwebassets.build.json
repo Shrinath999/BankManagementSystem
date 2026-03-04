@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ITugp6gggWsIpjIAFx7wOHaUAyjTimOEOa+CBM5X7H0=",
+  "Hash": "PkDSG6VK24/yY1lnqTAH2rf4KYyow+29H12vaEK2/Rs=",
   "Source": "BankingSystem.DAL",
   "BasePath": "_content/BankingSystem.DAL",
   "Mode": "Default",
@@ -144,7 +144,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:37 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -181,7 +181,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:37 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -226,7 +226,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:38 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -263,7 +263,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:38 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -308,7 +308,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:40 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:07 GMT"
         },
         {
           "Name": "Link",
@@ -353,7 +353,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:40 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -398,7 +398,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:40 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -439,7 +439,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:40 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:07 GMT"
         },
         {
           "Name": "Link",

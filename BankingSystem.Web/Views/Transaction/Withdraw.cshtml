@@ -1,4 +1,4 @@
-﻿@{
+﻿@* @{
     ViewData["Title"] = "Withdraw";
 }
 
@@ -33,4 +33,89 @@
 
     <button type="submit" class="btn btn-danger">Withdraw</button>
 
-</form>
+</form> *@
+
+@{
+    ViewData["Title"] = "Withdraw";
+}
+
+<div class="container mt-4">
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-danger text-white text-center">
+                    <h4 class="mb-0">🏧 Withdraw Money</h4>
+                </div>
+
+                <div class="card-body p-4">
+
+                    @if (ViewBag.Error != null)
+                    {
+                        <div class="alert alert-danger text-center">
+                            @ViewBag.Error
+                        </div>
+                    }
+
+                    <form asp-action="Withdraw" method="post">
+
+                        <!-- Account Selection -->
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Select Account</label>
+                            <select name="accountId" class="form-select" required>
+                                <option value="">-- Select Account --</option>
+                                @foreach (var account in ViewBag.Accounts)
+                                {
+                                    <option value="@account.AccountId">
+                                        @account.AccountNumber
+                                        (@account.AccountType)
+                                        - Balance: ₹ @account.Balance
+                                    </option>
+                                }
+                            </select>
+                        </div>
+
+                        <!-- Amount -->
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Enter Amount</label>
+                            <div class="input-group">
+                                <span class="input-group-text">₹</span>
+                                <input type="number" step="0.01" name="amount"
+                                       class="form-control"
+                                       placeholder="Enter withdrawal amount"
+                                       required />
+                            </div>
+                        </div>
+
+                        <!-- Quick Amount Buttons -->
+                        <div class="mb-3 text-center">
+                            <button type="button" class="btn btn-outline-secondary btn-sm m-1" onclick="setAmount(1000)">₹ 1000</button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm m-1" onclick="setAmount(2000)">₹ 2000</button>
+                            <button type="button" class="btn btn-outline-secondary btn-sm m-1" onclick="setAmount(5000)">₹ 5000</button>
+                        </div>
+
+                        <!-- Submit -->
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-danger btn-lg">
+                                Confirm Withdrawal
+                            </button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script>
+        function setAmount(value) {
+            document.querySelector('input[name="amount"]').value = value;
+        }
+    </script>
+}4
