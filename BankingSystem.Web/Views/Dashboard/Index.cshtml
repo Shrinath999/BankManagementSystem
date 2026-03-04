@@ -1,97 +1,241 @@
-﻿@{
-    ViewData["Title"] = "Dashboard";
-}
+﻿<div class="dashboard-header mb-4">
 
-<div class="container-fluid">
+    <h2>📊 Banking Dashboard</h2>
 
-    <!-- Page Header -->
-    <div class="d-flex justify-content-between align-items-center mb-4">
-        <h2 class="fw-bold">📊 Banking Dashboard</h2>
-        <span class="text-muted">Welcome to Core Banking System</span>
+    <span class="welcome-text">
+        Welcome to Core Banking System
+    </span>
+
+</div>
+
+
+<div class="row g-4 mt-2">
+
+    <div class="col-md-3">
+        <div class="stat-card blue" onclick="toggleCustomers()">
+
+            <div class="stat-icon">👤</div>
+
+            <div class="stat-content">
+                <p>Total Customers</p>
+                <h3 id="custText">••••</h3>
+
+                <span id="custValue" style="display:none">
+                    @ViewBag.TotalCustomers
+                </span>
+            </div>
+
+        </div>
     </div>
 
-    <!-- Statistics Cards Row 1 -->
-    <div class="row g-4">
 
-        <!-- Total Customers -->
-        <div class="col-md-3">
-            <div class="card shadow border-0 bg-primary text-white h-100">
-                <div class="card-body">
-                    <h6 class="card-title">Total Customers</h6>
-                    <h3 class="fw-bold">@ViewBag.TotalCustomers</h3>
-                </div>
+    <div class="col-md-3">
+        <div class="stat-card green" onclick="toggleAccounts()">
+
+            <div class="stat-icon">💳</div>
+
+            <div class="stat-content">
+                <p>Total Accounts</p>
+                <h3 id="accText">••••</h3>
+
+                <span id="accValue" style="display:none">
+                    @ViewBag.TotalAccounts
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-md-3">
+        <div class="stat-card orange" onclick="toggleTransactions()">
+
+            <div class="stat-icon">💰</div>
+
+            <div class="stat-content">
+                <p>Total Transactions</p>
+                <h3 id="txnText">••••</h3>
+
+                <span id="txnValue" style="display:none">
+                    @ViewBag.TotalTransactions
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-md-3">
+        <div class="stat-card red" onclick="toggleBalance()">
+
+            <div class="stat-icon">🏦</div>
+
+            <div class="stat-content">
+                <p>Total Bank Balance</p>
+                <h3 id="balanceText">₹ •••••</h3>
+
+                <span id="balanceValue" style="display:none">
+                    ₹ @ViewBag.TotalBalance
+                </span>
+
             </div>
         </div>
+    </div>
 
-        <!-- Total Accounts -->
-        <div class="col-md-3">
-            <div class="card shadow border-0 bg-success text-white h-100">
-                <div class="card-body">
-                    <h6 class="card-title">Total Accounts</h6>
-                    <h3 class="fw-bold">@ViewBag.TotalAccounts</h3>
-                </div>
-            </div>
-        </div>
+</div>
 
-        <!-- Total Transactions -->
-        <div class="col-md-3">
-            <div class="card shadow border-0 bg-warning text-dark h-100">
-                <div class="card-body">
-                    <h6 class="card-title">Total Transactions</h6>
-                    <h3 class="fw-bold">@ViewBag.TotalTransactions</h3>
-                </div>
-            </div>
-        </div>
+<hr class="my-5" />
 
-        <!-- Total Bank Balance -->
-        <div class="col-md-3">
-            <div class="card shadow border-0 bg-danger text-white h-100">
-                <div class="card-body">
-                    <h6 class="card-title">Total Bank Balance</h6>
-                    <h3 class="fw-bold">₹ @ViewBag.TotalBalance</h3>
-                </div>
-            </div>
+
+<div class="row g-4">
+
+    <div class="col-md-4">
+
+        <div class="action-card">
+
+            <div class="icon">👤</div>
+
+            <h5>Manage Customers</h5>
+
+            <a asp-controller="Customer" asp-action="Index"
+               class="btn btn-primary">
+                View Customers
+            </a>
+
         </div>
 
     </div>
 
-    <!-- Divider -->
-    <hr class="my-5" />
 
-    <!-- Quick Actions -->
-    <div class="row g-4">
 
-        <div class="col-md-4">
-            <div class="card p-4 shadow-sm text-center">
-                <h5>👤 Manage Customers</h5>
-                <a asp-controller="Customer" asp-action="Index" class="btn btn-primary mt-3">
-                    View Customers
-                </a>
-            </div>
+    <div class="col-md-4">
+
+        <div class="action-card">
+
+            <div class="icon">💳</div>
+
+            <h5>Open Account</h5>
+
+            <a asp-controller="Account" asp-action="Create"
+               class="btn btn-success">
+                Create Account
+            </a>
+
         </div>
 
-        <div class="col-md-4">
-            <div class="card shadow-sm h-100">
-                <div class="card-body text-center">
-                    <h5 class="mb-3">💳 Open Account</h5>
-                    <a asp-controller="Account" asp-action="Create" class="btn btn-outline-success">
-                        Create Account
-                    </a>
-                </div>
-            </div>
-        </div>
+    </div>
 
-        <div class="col-md-4">
-            <div class="card shadow-sm h-100">
-                <div class="card-body text-center">
-                    <h5 class="mb-3">💸 Fund Transfer</h5>
-                    <a asp-controller="Transaction" asp-action="Transfer" class="btn btn-outline-danger">
-                        Transfer Money
-                    </a>
-                </div>
-            </div>
+
+
+    <div class="col-md-4">
+
+        <div class="action-card">
+
+            <div class="icon">💸</div>
+
+            <h5>Fund Transfer</h5>
+
+            <a asp-controller="Transaction" asp-action="Transfer"
+               class="btn btn-danger">
+                Transfer Money
+            </a>
+
         </div>
 
     </div>
 
 </div>
+@* <script>
+
+	function toggleTransactions(){
+
+	let hiddenValue = document.getElementById("txnValue").innerText;
+	let display = document.getElementById("txnCount");
+
+	if(display.innerText === "••••"){
+	display.innerText = hiddenValue;
+	}else{
+	display.innerText = "••••";
+	}
+
+	}
+
+
+	function toggleBalance(){
+
+	let hiddenValue = document.getElementById("balanceValue").innerText;
+	let display = document.getElementById("balanceText");
+
+	if(display.innerText.includes("••")){
+	display.innerText = hiddenValue;
+	}else{
+	display.innerText = "₹ ••••••";
+	} *@
+
+	
+
+@*
+    </script>
+*@
+<script>
+
+    function toggleCustomers(){
+
+    let hidden = document.getElementById("custValue").innerText.trim();
+    let display = document.getElementById("custText");
+
+    if(display.innerText === "••••"){
+    display.innerText = hidden;
+    }
+    else{
+    display.innerText = "••••";
+    }
+
+    }
+
+
+    function toggleAccounts(){
+
+    let hidden = document.getElementById("accValue").innerText.trim();
+    let display = document.getElementById("accText");
+
+    if(display.innerText === "••••"){
+    display.innerText = hidden;
+    }
+    else{
+    display.innerText = "••••";
+    }
+
+    }
+
+
+    function toggleTransactions(){
+
+    let hidden = document.getElementById("txnValue").innerText.trim();
+    let display = document.getElementById("txnText");
+
+    if(display.innerText === "••••"){
+    display.innerText = hidden;
+    }
+    else{
+    display.innerText = "••••";
+    }
+
+    }
+
+
+    function toggleBalance(){
+
+    let hidden = document.getElementById("balanceValue").innerText.trim();
+    let display = document.getElementById("balanceText");
+
+    if(display.innerText.includes("••")){
+    display.innerText = hidden;
+    }
+    else{
+    display.innerText = "₹ •••••";
+    }
+
+    }
+
+</script>

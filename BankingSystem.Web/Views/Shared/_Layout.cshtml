@@ -12,20 +12,34 @@
 <body>
 
     <!-- TOP NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <span class="navbar-brand fw-bold">🏦 Core Banking System</span>
+    <nav class="navbar navbar-expand-lg navbar-modern px-4">
+
+        <div class="d-flex align-items-center">
+
+            <div class="bank-logo me-2">🏦</div>
+
+            <span class="bank-title">Core Banking System</span>
+
         </div>
-        <div class="ms-auto">
-            <span class="text-white me-3">
-                👤 @User.Identity.Name
-            </span>
-            <a asp-controller="Auth" asp-action="Logout" class="btn btn-sm btn-danger">
+
+
+        <div class="ms-auto d-flex align-items-center user-section">
+
+            <div class="user-info me-3">
+
+                <span class="user-icon">👤</span>
+
+                <span class="username">@User.Identity.Name</span>
+
+            </div>
+
+            <a asp-controller="Auth" asp-action="Logout" class="btn logout-btn">
                 Logout
             </a>
-        </div>
-    </nav>
 
+        </div>
+
+    </nav>
     <div class="container-fluid">
         <div class="row">
 
@@ -50,7 +64,14 @@
                                 👤 Customers
                             </a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="UserManagement" asp-action="Index">
+                                🔐 User Management
+                            </a>
+                        </li>
                     }
+                    
 
                     <!-- Admin + Teller -->
                     @if (User.IsInRole("Admin") || User.IsInRole("Teller"))

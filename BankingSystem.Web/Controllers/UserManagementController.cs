@@ -18,6 +18,28 @@ namespace BankingSystem.Web.Controllers
             _roleManager = roleManager;
         }
 
+        public async Task<IActionResult> Index()
+        {
+            var users = _userManager.Users.ToList();
+            var userList = new List<UserListViewModel>();
+
+            foreach (var user in users)
+            {
+                var roles = await _userManager.GetRolesAsync(user);
+
+                userList.Add(new UserListViewModel
+                {
+                    Id = user.Id,
+                    Email = user.Email,
+                    Role = roles.FirstOrDefault(),
+                    IsLocked = user.LockoutEnd != null &&
+                               user.LockoutEnd > DateTimeOffset.Now
+                });
+            }
+
+            return View(userList);
+        }
+
         public IActionResult Create()
         {
             ViewBag.Roles = _roleManager.Roles.ToList();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t9Yk2rV1FJ7FA28ilI04f7qftiec1oT2JT6XqlMDkRo=",
+  "Hash": "0XHjWlsRYkPC1VqlNqzuhAKQm1mtIB1u4+64QdsjLHc=",
   "Source": "BankingSystem.BLL",
   "BasePath": "_content/BankingSystem.BLL",
   "Mode": "Default",
@@ -176,7 +176,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:37 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -213,7 +213,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:37 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -258,7 +258,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:40 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:07 GMT"
         }
       ],
       "EndpointProperties": [
@@ -303,7 +303,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:40 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:07 GMT"
         }
       ],
       "EndpointProperties": [
@@ -340,7 +340,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:38 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -377,7 +377,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:38 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
         }
       ],
       "EndpointProperties": [
@@ -418,7 +418,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:42 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -463,7 +463,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:42 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -504,7 +504,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:42 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:09 GMT"
         },
         {
           "Name": "Link",
@@ -545,7 +545,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Mar 2026 09:25:42 GMT"
+          "Value": "Wed, 04 Mar 2026 06:16:09 GMT"
         },
         {
           "Name": "Link",
