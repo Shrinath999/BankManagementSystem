@@ -1,6 +1,7 @@
 ﻿using BankingSystem.DAL.Repositorie;
 
 using BankingSystem.Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using static BankingSystem.DAL.Repositorie.IGenericRepository;
 
 namespace BankingSystem.BLL.Services
@@ -16,7 +17,7 @@ namespace BankingSystem.BLL.Services
 
         public async Task<IEnumerable<Account>> GetAllAccountsAsync()
         {
-            return await _accountRepo.GetAllAsync();
+            return await _accountRepo.GetAllIncludingAsync(a => a.Customer);
         }
 
         public async Task CreateAccountAsync(Account account)

@@ -43,5 +43,14 @@ namespace BankingSystem.BLL.Services
             var accounts = await _accountRepo.GetAllAsync();
             return accounts.Sum(a => a.Balance);
         }
+        public async Task<IEnumerable<Transaction>> GetRecentTransactionsAsync()
+        {
+            var transactions = await _transactionRepo.GetAllAsync();
+
+            return transactions
+                .OrderByDescending(t => t.CreatedDate)
+                .Take(5)
+                .ToList();
+        }
     }
 }

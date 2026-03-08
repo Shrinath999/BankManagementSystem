@@ -3,32 +3,116 @@
   "WorkspaceRootPath": "E:\\BankingSystem.Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|e:\\bankingsystem.web\\bankingsystem.bll\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|solutionrelative:bankingsystem.bll\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\transaction\\statement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\transaction\\statement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\BankingSystem.Web\\BankingSystem.DAL\\Migrations\\20260308113937_AddTxnNumberAndNames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BankingSystem.DAL\\Migrations\\20260308113937_AddTxnNumberAndNames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{C4228DBE-2B7E-483E-854D-A91B14FF2F4E}|BankingSystem.Entities\\BankingSystem.Entities.csproj|e:\\bankingsystem.web\\bankingsystem.entities\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4228DBE-2B7E-483E-854D-A91B14FF2F4E}|BankingSystem.Entities\\BankingSystem.Entities.csproj|solutionrelative:bankingsystem.entities\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4228DBE-2B7E-483E-854D-A91B14FF2F4E}|BankingSystem.Entities\\BankingSystem.Entities.csproj|e:\\bankingsystem.web\\bankingsystem.entities\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4228DBE-2B7E-483E-854D-A91B14FF2F4E}|BankingSystem.Entities\\BankingSystem.Entities.csproj|solutionrelative:bankingsystem.entities\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\transaction\\deposit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\transaction\\deposit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|e:\\bankingsystem.web\\bankingsystem.dal\\migrations\\20260308111623_addtransactiondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|solutionrelative:bankingsystem.dal\\migrations\\20260308111623_addtransactiondetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\transaction\\transfer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\transaction\\transfer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\seed\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\seed\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|e:\\bankingsystem.web\\bankingsystem.bll\\services\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|solutionrelative:bankingsystem.bll\\services\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|e:\\bankingsystem.web\\bankingsystem.bll\\services\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|solutionrelative:bankingsystem.bll\\services\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\transaction\\withdraw.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\transaction\\withdraw.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|e:\\bankingsystem.web\\bankingsystem.dal\\repositorie\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|solutionrelative:bankingsystem.dal\\repositorie\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|e:\\bankingsystem.web\\bankingsystem.dal\\repositorie\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|solutionrelative:bankingsystem.dal\\repositorie\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|e:\\bankingsystem.web\\bankingsystem.bll\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|solutionrelative:bankingsystem.bll\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\usermanagement\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\usermanagement\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\viewmodels\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\viewmodels\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|e:\\bankingsystem.web\\bankingsystem.bll\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|solutionrelative:bankingsystem.bll\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|e:\\bankingsystem.web\\bankingsystem.bll\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,20 +127,28 @@
       "RelativeMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|solutionrelative:bankingsystem.bll\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|e:\\bankingsystem.web\\bankingsystem.bll\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|solutionrelative:bankingsystem.bll\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|e:\\bankingsystem.web\\bankingsystem.dal\\repositorie\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|solutionrelative:bankingsystem.dal\\repositorie\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|e:\\bankingsystem.web\\bankingsystem.dal\\repositorie\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|solutionrelative:bankingsystem.dal\\repositorie\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4228DBE-2B7E-483E-854D-A91B14FF2F4E}|BankingSystem.Entities\\BankingSystem.Entities.csproj|e:\\bankingsystem.web\\bankingsystem.entities\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4228DBE-2B7E-483E-854D-A91B14FF2F4E}|BankingSystem.Entities\\BankingSystem.Entities.csproj|solutionrelative:bankingsystem.entities\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,64 +159,12 @@
       "RelativeMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|solutionrelative:bankingsystem.dal\\data\\bankingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\usermanagement\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\usermanagement\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\usermanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\usermanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\viewmodels\\userlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\viewmodels\\userlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\viewmodels\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\viewmodels\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\transaction\\statement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\transaction\\statement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\transaction\\deposit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\transaction\\deposit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\transaction\\withdraw.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\transaction\\withdraw.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\seed\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\seed\\identityseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\transaction\\transfer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\transaction\\transfer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|e:\\bankingsystem.web\\bankingsystem.bll\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|solutionrelative:bankingsystem.bll\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|e:\\bankingsystem.web\\bankingsystem.bll\\services\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|solutionrelative:bankingsystem.bll\\services\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -139,24 +179,8 @@
       "RelativeMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|solutionrelative:bankingsystem.dal\\migrations\\bankingdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4228DBE-2B7E-483E-854D-A91B14FF2F4E}|BankingSystem.Entities\\BankingSystem.Entities.csproj|e:\\bankingsystem.web\\bankingsystem.entities\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4228DBE-2B7E-483E-854D-A91B14FF2F4E}|BankingSystem.Entities\\BankingSystem.Entities.csproj|solutionrelative:bankingsystem.entities\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\bankingsystem.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\bankingsystem.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -171,16 +195,8 @@
       "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|e:\\bankingsystem.web\\bankingsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{57475077-A1F4-4281-A0B1-E4AFE68F2993}|BankingSystem.Web\\BankingSystem.Web.csproj|solutionrelative:bankingsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4228DBE-2B7E-483E-854D-A91B14FF2F4E}|BankingSystem.Entities\\BankingSystem.Entities.csproj|e:\\bankingsystem.web\\bankingsystem.entities\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -201,14 +217,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|e:\\bankingsystem.web\\bankingsystem.dal\\migrations\\20260224124534_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27F3E83F-3750-49DE-BE76-AD9EE6707365}|BankingSystem.DAL\\BankingSystem.DAL.csproj|solutionrelative:bankingsystem.dal\\migrations\\20260224124534_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|e:\\bankingsystem.web\\bankingsystem.bll\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|solutionrelative:bankingsystem.bll\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|e:\\bankingsystem.web\\bankingsystem.bll\\services\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAC0D01F-4FBE-49A1-BEC3-96DEF7D63319}|BankingSystem.BLL\\BankingSystem.BLL.csproj|solutionrelative:bankingsystem.bll\\services\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -218,114 +226,273 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\wwwroot\\favicon.ico",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\wwwroot\\favicon.ico",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\wwwroot\\favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
-              "RelativeToolTip": "BankingSystem.Web\\wwwroot\\favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
-              "WhenOpened": "2026-03-04T08:00:46.068Z",
-              "EditorCaption": " -  [English (United States)] - Icon [32x32, 32 bit, BMP]"
+              "Title": "20260308113937_AddTxnNumberAndNames.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Migrations\\20260308113937_AddTxnNumberAndNames.cs",
+              "RelativeDocumentMoniker": "BankingSystem.DAL\\Migrations\\20260308113937_AddTxnNumberAndNames.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Migrations\\20260308113937_AddTxnNumberAndNames.cs",
+              "RelativeToolTip": "BankingSystem.DAL\\Migrations\\20260308113937_AddTxnNumberAndNames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T11:39:37.491Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BankingSystem.Web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T07:20:40.975Z",
+              "DocumentIndex": 0,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\TransactionService.cs",
+              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\TransactionService.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\TransactionService.cs*",
+              "RelativeToolTip": "BankingSystem.BLL\\Services\\TransactionService.cs*",
+              "ViewState": "AgIAALsAAAAAAAAAAAAAAM4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T07:58:21.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Statement.cshtml",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Statement.cshtml",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Transaction\\Statement.cshtml",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Statement.cshtml",
+              "RelativeToolTip": "BankingSystem.Web\\Views\\Transaction\\Statement.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAmwIAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T10:38:07.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IdentitySeeder.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Seed\\IdentitySeeder.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Seed\\IdentitySeeder.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Seed\\IdentitySeeder.cs",
+              "RelativeToolTip": "BankingSystem.Web\\Seed\\IdentitySeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T04:43:22.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Entities\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Entities\\Models\\Transaction.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Entities\\Models\\Transaction.cs",
+              "RelativeToolTip": "BankingSystem.Entities\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:34:52.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "BankingSystem.Web\\wwwroot\\css\\site.css",
               "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\wwwroot\\css\\site.css",
               "RelativeToolTip": "BankingSystem.Web\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAiwJsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-03-01T15:28:52.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "BankingSystem.Web\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAALcAAAAAAAAAAAAqwLMAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Deposit.cshtml",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Deposit.cshtml",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Transaction\\Deposit.cshtml",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Deposit.cshtml",
+              "RelativeToolTip": "BankingSystem.Web\\Views\\Transaction\\Deposit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T07:14:06.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\CustomerService.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\CustomerService.cs",
-              "RelativeToolTip": "BankingSystem.BLL\\Services\\CustomerService.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAACoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T12:48:21.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Program.cs",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Program.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Program.cs",
-              "RelativeToolTip": "BankingSystem.Web\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAawD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T11:55:30.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Entities\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "BankingSystem.Entities\\Models\\Customer.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Entities\\Models\\Customer.cs",
-              "RelativeToolTip": "BankingSystem.Entities\\Models\\Customer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T11:33:10.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\AccountService.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\AccountService.cs",
-              "RelativeToolTip": "BankingSystem.BLL\\Services\\AccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T07:29:05.586Z",
+              "WhenOpened": "2026-02-24T08:22:34.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "20260308111623_AddTransactionDetails.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Migrations\\20260308111623_AddTransactionDetails.cs",
+              "RelativeDocumentMoniker": "BankingSystem.DAL\\Migrations\\20260308111623_AddTransactionDetails.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Migrations\\20260308111623_AddTransactionDetails.cs",
+              "RelativeToolTip": "BankingSystem.DAL\\Migrations\\20260308111623_AddTransactionDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T11:16:26.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDashboardService.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\IDashboardService.cs",
+              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\IDashboardService.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\IDashboardService.cs",
+              "RelativeToolTip": "BankingSystem.BLL\\Services\\IDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T10:24:59.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transfer.cshtml",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Transfer.cshtml",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Transaction\\Transfer.cshtml",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Transfer.cshtml",
+              "RelativeToolTip": "BankingSystem.Web\\Views\\Transaction\\Transfer.cshtml",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAuwP0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T10:12:24.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITransactionService.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\ITransactionService.cs",
+              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\ITransactionService.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\ITransactionService.cs",
+              "RelativeToolTip": "BankingSystem.BLL\\Services\\ITransactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T07:56:22.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\TransactionController.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "BankingSystem.Web\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAiwKcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T08:00:28.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Account\\Create.cshtml",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Account\\Create.cshtml",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Account\\Create.cshtml",
+              "RelativeToolTip": "BankingSystem.Web\\Views\\Account\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T07:41:32.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Account\\Index.cshtml",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "BankingSystem.Web\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T07:40:58.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\appsettings.json",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\appsettings.json",
+              "RelativeToolTip": "BankingSystem.Web\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-17T11:28:09.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Repositorie\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "BankingSystem.DAL\\Repositorie\\IGenericRepository.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Repositorie\\IGenericRepository.cs",
+              "RelativeToolTip": "BankingSystem.DAL\\Repositorie\\IGenericRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T12:37:05.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Withdraw.cshtml",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Withdraw.cshtml",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Transaction\\Withdraw.cshtml",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Withdraw.cshtml",
+              "RelativeToolTip": "BankingSystem.Web\\Views\\Transaction\\Withdraw.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T08:23:09.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\UserManagement\\Create.cshtml",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\UserManagement\\Create.cshtml",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\UserManagement\\Create.cshtml",
+              "RelativeToolTip": "BankingSystem.Web\\Views\\UserManagement\\Create.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T07:35:44.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BankingSystem.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwD8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T07:20:40.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "BankingSystem.Web\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T07:14:06.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "BankingSystem.Web\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-17T12:59:08.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Login.cshtml",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Auth\\Login.cshtml",
@@ -333,176 +500,11 @@
               "RelativeToolTip": "BankingSystem.Web\\Views\\Auth\\Login.cshtml",
               "ViewState": "AgIAALoAAAAAAAAAAAAYwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T12:54:01.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T12:54:01.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICustomerService.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\ICustomerService.cs",
-              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\ICustomerService.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\ICustomerService.cs",
-              "RelativeToolTip": "BankingSystem.BLL\\Services\\ICustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T12:47:36.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\IAccountService.cs",
-              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\IAccountService.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\IAccountService.cs",
-              "RelativeToolTip": "BankingSystem.BLL\\Services\\IAccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T07:27:48.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Repositorie\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "BankingSystem.DAL\\Repositorie\\GenericRepository.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Repositorie\\GenericRepository.cs",
-              "RelativeToolTip": "BankingSystem.DAL\\Repositorie\\GenericRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwAsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T12:34:34.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Repositorie\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "BankingSystem.DAL\\Repositorie\\IGenericRepository.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Repositorie\\IGenericRepository.cs",
-              "RelativeToolTip": "BankingSystem.DAL\\Repositorie\\IGenericRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T12:37:05.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\AccountController.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "BankingSystem.Web\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADgvxEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T07:30:54.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "BankingSystem.Web\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAqwCgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T12:47:07.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "BankingDbContext.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Data\\BankingDbContext.cs",
-              "RelativeDocumentMoniker": "BankingSystem.DAL\\Data\\BankingDbContext.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Data\\BankingDbContext.cs",
-              "RelativeToolTip": "BankingSystem.DAL\\Data\\BankingDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T11:36:29.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\UserManagement\\Create.cshtml",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\UserManagement\\Create.cshtml",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\UserManagement\\Create.cshtml",
-              "RelativeToolTip": "BankingSystem.Web\\Views\\UserManagement\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-26T07:35:44.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Transfer.cshtml",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Transfer.cshtml",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Transaction\\Transfer.cshtml",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Transfer.cshtml",
-              "RelativeToolTip": "BankingSystem.Web\\Views\\Transaction\\Transfer.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T10:12:24.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserManagementController.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\UserManagementController.cs",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\UserManagementController.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\UserManagementController.cs",
-              "RelativeToolTip": "BankingSystem.Web\\Controllers\\UserManagementController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T07:19:09.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UserListViewModel.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\ViewModels\\UserListViewModel.cs",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\ViewModels\\UserListViewModel.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\ViewModels\\UserListViewModel.cs",
-              "RelativeToolTip": "BankingSystem.Web\\ViewModels\\UserListViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T12:45:37.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\UserManagement\\Index.cshtml",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\UserManagement\\Index.cshtml",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\UserManagement\\Index.cshtml",
-              "RelativeToolTip": "BankingSystem.Web\\Views\\UserManagement\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-03T12:46:58.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Customer\\Create.cshtml",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Customer\\Create.cshtml",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Customer\\Create.cshtml",
-              "RelativeToolTip": "BankingSystem.Web\\Views\\Customer\\Create.cshtml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAuwF8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-17T12:59:08.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "CreateUserViewModel.cs",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\ViewModels\\CreateUserViewModel.cs",
               "RelativeDocumentMoniker": "BankingSystem.Web\\ViewModels\\CreateUserViewModel.cs",
@@ -514,103 +516,223 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Statement.cshtml",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Statement.cshtml",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Transaction\\Statement.cshtml",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Statement.cshtml",
-              "RelativeToolTip": "BankingSystem.Web\\Views\\Transaction\\Statement.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAmwHcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T10:38:07.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Deposit.cshtml",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Deposit.cshtml",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Transaction\\Deposit.cshtml",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Deposit.cshtml",
-              "RelativeToolTip": "BankingSystem.Web\\Views\\Transaction\\Deposit.cshtml",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAuwHoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T08:22:34.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Withdraw.cshtml",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Withdraw.cshtml",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Transaction\\Withdraw.cshtml",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Transaction\\Withdraw.cshtml",
-              "RelativeToolTip": "BankingSystem.Web\\Views\\Transaction\\Withdraw.cshtml",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAuwHkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T08:23:09.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IdentitySeeder.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Seed\\IdentitySeeder.cs",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Seed\\IdentitySeeder.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Seed\\IdentitySeeder.cs",
-              "RelativeToolTip": "BankingSystem.Web\\Seed\\IdentitySeeder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T04:43:22.348Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "TransactionService.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\TransactionService.cs",
-              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\TransactionService.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\TransactionService.cs",
-              "RelativeToolTip": "BankingSystem.BLL\\Services\\TransactionService.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAAAKYAAAALAAAAAAAAAA==",
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\DashboardService.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\DashboardService.cs",
+              "RelativeToolTip": "BankingSystem.BLL\\Services\\DashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T07:58:21.968Z"
+              "WhenOpened": "2026-02-24T10:25:30.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\DashboardController.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "BankingSystem.Web\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA6wBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T07:15:06.725Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "TransactionController.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\TransactionController.cs",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\TransactionController.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\TransactionController.cs",
-              "RelativeToolTip": "BankingSystem.Web\\Controllers\\TransactionController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAA4wFcAAAA6AAAAAAAAAA==",
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\CustomerService.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\CustomerService.cs",
+              "RelativeToolTip": "BankingSystem.BLL\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA0wCoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T08:00:28.109Z"
+              "WhenOpened": "2026-02-17T12:48:21.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\AccountService.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\AccountService.cs",
+              "RelativeToolTip": "BankingSystem.BLL\\Services\\AccountService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T07:29:05.586Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "ITransactionService.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\ITransactionService.cs",
-              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\ITransactionService.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\ITransactionService.cs",
-              "RelativeToolTip": "BankingSystem.BLL\\Services\\ITransactionService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\ICustomerService.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\ICustomerService.cs",
+              "RelativeToolTip": "BankingSystem.BLL\\Services\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T07:56:22.431Z"
+              "WhenOpened": "2026-02-17T12:47:36.541Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\IAccountService.cs",
+              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\IAccountService.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\IAccountService.cs",
+              "RelativeToolTip": "BankingSystem.BLL\\Services\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T07:27:48.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserManagementController.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\UserManagementController.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\UserManagementController.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\UserManagementController.cs",
+              "RelativeToolTip": "BankingSystem.Web\\Controllers\\UserManagementController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T07:19:09.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\HomeController.cs",
               "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\HomeController.cs",
               "RelativeToolTip": "BankingSystem.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T09:40:51.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\CustomerController.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "BankingSystem.Web\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T12:55:29.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\wwwroot\\favicon.ico",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\wwwroot\\favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "BankingSystem.Web\\wwwroot\\favicon.ico -  [English (United States)] - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2026-03-04T08:00:46.068Z",
+              "EditorCaption": " -  [English (United States)] - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Program.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Program.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Program.cs",
+              "RelativeToolTip": "BankingSystem.Web\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAawD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:55:30.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Entities\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Entities\\Models\\Customer.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Entities\\Models\\Customer.cs",
+              "RelativeToolTip": "BankingSystem.Entities\\Models\\Customer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:33:10.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Repositorie\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "BankingSystem.DAL\\Repositorie\\GenericRepository.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Repositorie\\GenericRepository.cs",
+              "RelativeToolTip": "BankingSystem.DAL\\Repositorie\\GenericRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T12:34:34.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BankingSystem.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADgvxEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T07:30:54.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "BankingSystem.Web\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T12:47:07.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BankingDbContext.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Data\\BankingDbContext.cs",
+              "RelativeDocumentMoniker": "BankingSystem.DAL\\Data\\BankingDbContext.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Data\\BankingDbContext.cs",
+              "RelativeToolTip": "BankingSystem.DAL\\Data\\BankingDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T11:36:29.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserListViewModel.cs",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\ViewModels\\UserListViewModel.cs",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\ViewModels\\UserListViewModel.cs",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\ViewModels\\UserListViewModel.cs",
+              "RelativeToolTip": "BankingSystem.Web\\ViewModels\\UserListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T12:45:37.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\UserManagement\\Index.cshtml",
+              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\UserManagement\\Index.cshtml",
+              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\UserManagement\\Index.cshtml",
+              "RelativeToolTip": "BankingSystem.Web\\Views\\UserManagement\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T12:46:58.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "20260227152001_AddExternalTransferFields.cs",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Migrations\\20260227152001_AddExternalTransferFields.cs",
               "RelativeDocumentMoniker": "BankingSystem.DAL\\Migrations\\20260227152001_AddExternalTransferFields.cs",
@@ -622,7 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 41,
               "Title": ".gitignore",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\.gitignore",
               "RelativeDocumentMoniker": "BankingSystem.Web\\.gitignore",
@@ -634,7 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 43,
               "Title": "BankingDbContextModelSnapshot.cs",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Migrations\\BankingDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "BankingSystem.DAL\\Migrations\\BankingDbContextModelSnapshot.cs",
@@ -646,55 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Entities\\Models\\Transaction.cs",
-              "RelativeDocumentMoniker": "BankingSystem.Entities\\Models\\Transaction.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Entities\\Models\\Transaction.cs",
-              "RelativeToolTip": "BankingSystem.Entities\\Models\\Transaction.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T11:34:52.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\CustomerController.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "BankingSystem.Web\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAABkAAAAQNJzUfbkywAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T12:55:29.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Account\\Index.cshtml",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Account\\Index.cshtml",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Account\\Index.cshtml",
-              "RelativeToolTip": "BankingSystem.Web\\Views\\Account\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T07:40:58.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Controllers\\DashboardController.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "BankingSystem.Web\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T07:15:06.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "BankingSystem.Web.csproj",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\BankingSystem.Web.csproj",
               "RelativeDocumentMoniker": "BankingSystem.Web\\BankingSystem.Web.csproj",
@@ -706,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 45,
               "Title": "Login.cshtml",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Login.cshtml",
               "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Login.cshtml",
@@ -718,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "20260224124534_AddIdentityTables.cs",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Migrations\\20260224124534_AddIdentityTables.cs",
               "RelativeDocumentMoniker": "BankingSystem.DAL\\Migrations\\20260224124534_AddIdentityTables.cs",
@@ -730,31 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "DashboardService.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\DashboardService.cs",
-              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\DashboardService.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\DashboardService.cs",
-              "RelativeToolTip": "BankingSystem.BLL\\Services\\DashboardService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T10:25:30.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "IDashboardService.cs",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\IDashboardService.cs",
-              "RelativeDocumentMoniker": "BankingSystem.BLL\\Services\\IDashboardService.cs",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.BLL\\Services\\IDashboardService.cs",
-              "RelativeToolTip": "BankingSystem.BLL\\Services\\IDashboardService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T10:24:59.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 46,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Customer\\Index.cshtml",
               "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Customer\\Index.cshtml",
@@ -766,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\_ViewImports.cshtml",
@@ -778,19 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Account\\Create.cshtml",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\Account\\Create.cshtml",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\Account\\Create.cshtml",
-              "RelativeToolTip": "BankingSystem.Web\\Views\\Account\\Create.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAuwCoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T07:41:32.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "BankingSystem.Web\\Views\\_ViewStart.cshtml",
@@ -802,19 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Web\\appsettings.json",
-              "RelativeDocumentMoniker": "BankingSystem.Web\\appsettings.json",
-              "ToolTip": "E:\\BankingSystem.Web\\BankingSystem.Web\\appsettings.json",
-              "RelativeToolTip": "BankingSystem.Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-17T11:28:09.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "Account.cs",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.Entities\\Models\\Account.cs",
               "RelativeDocumentMoniker": "BankingSystem.Entities\\Models\\Account.cs",
@@ -826,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "20260217120627_InitialCreate.cs",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\Migrations\\20260217120627_InitialCreate.cs",
               "RelativeDocumentMoniker": "BankingSystem.DAL\\Migrations\\20260217120627_InitialCreate.cs",
@@ -838,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "BankingSystem.DAL.csproj",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.DAL\\BankingSystem.DAL.csproj",
               "RelativeDocumentMoniker": "BankingSystem.DAL\\BankingSystem.DAL.csproj",
@@ -850,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "BankingSystem.BLL.csproj",
               "DocumentMoniker": "E:\\BankingSystem.Web\\BankingSystem.BLL\\BankingSystem.BLL.csproj",
               "RelativeDocumentMoniker": "BankingSystem.BLL\\BankingSystem.BLL.csproj",

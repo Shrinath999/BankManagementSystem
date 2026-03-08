@@ -2,109 +2,311 @@
     ViewData["Title"] = "Fund Transfer";
 }
 
-<h2>Fund Transfer</h2>
+<div class="transfer-container">
 
-@if (ViewBag.Error != null)
-{
-    <div class="alert alert-danger">
-        @ViewBag.Error
-    </div>
-}
+    <div class="transfer-card">
 
-<form asp-action="Transfer" method="post">
+        <h3 class="transfer-title">💸 Fund Transfer</h3>
 
-    <div class="mb-3">
-        <label>From Account</label>
-        <select name="fromAccountId" class="form-control" required>
-            <option value="">-- Select Sender --</option>
-            @foreach (var account in ViewBag.Accounts)
-            {
-                <option value="@account.AccountId">
-                    @account.AccountNumber - @account.AccountType (Balance: @account.Balance)
-                </option>
-            }
-        </select>
-    </div>
-
-   @*  <div class="mb-3">
-        <label>To Account</label>
-        <select name="toAccountId" class="form-control" required>
-            <option value="">-- Select Receiver --</option>
-            @foreach (var account in ViewBag.Accounts)
-            {
-                <option value="@account.AccountId">
-                    @account.AccountNumber - @account.AccountType (Balance: @account.Balance)
-                </option>
-            }
-        </select>
-    </div> *@
-    <div class="mb-3">
-        <label>Transfer Type</label>
-        <select id="transferType" name="transferType" class="form-control" onchange="toggleTransfer()">
-            <option value="internal">Internal (Same Bank)</option>
-            <option value="external">External (Other Bank)</option>
-        </select>
-    </div>
-
-    <!-- Internal Account Dropdown -->
-    <div class="mb-3" id="internalSection">
-        <label>To Account</label>
-        <select name="ToAccountId" class="form-control">
-            <option value="">-- Select Receiver --</option>
-            @foreach (var account in ViewBag.Accounts)
-            {
-                <option value="@account.AccountId">
-                    @account.AccountNumber - Balance: @account.Balance
-                </option>
-            }
-        </select>
-    </div>
-
-    <!-- External Transfer Section -->
-    <div id="externalSection" style="display:none">
-
-        <div class="mb-3">
-            <label>Select Bank</label>
-            <select name="BankName" class="form-control">
-                <option>HDFC Bank</option>
-                <option>ICICI Bank</option>
-                <option>SBI</option>
-                <option>Axis Bank</option>
-                <option>Kotak Bank</option>
-                <option>Yes Bank</option>
-                <option>Bank of Baroda</option>
-                <option>Punjab National Bank</option>
-                <option>IDFC Bank</option>
-                <option>IndusInd Bank</option>
-            </select>
-        </div>
-
-        <div class="mb-3">
-            <label>Receiver Account Number</label>
-            <input type="text" name="ExternalAccountNumber" class="form-control" />
-        </div>
-
-    </div>
-
-    <script>
-        function toggleTransfer() {
-            var type = document.getElementById("transferType").value;
-
-            if (type === "external") {
-                document.getElementById("internalSection").style.display = "none";
-                document.getElementById("externalSection").style.display = "block";
-            } else {
-                document.getElementById("internalSection").style.display = "block";
-                document.getElementById("externalSection").style.display = "none";
-            }
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-success text-center success-box">
+                @TempData["Success"]
+            </div>
         }
-    </script>
 
-    <div class="mb-3">
-        <label>Amount</label>
-        <input type="number" step="0.01" name="amount" class="form-control" required />
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger text-center">
+                @ViewBag.Error
+            </div>
+        }
+
+        <form asp-action="Transfer" method="post" onsubmit="showLoader()">
+
+            <!-- From Account -->
+            <div class="form-group">
+                <label>From Account</label>
+
+                <select id="fromAccountId"
+                        name="fromAccountId"
+                        class="form-control"
+                        onchange="showBalance()">
+
+                    <option value="">-- Select Sender --</option>
+
+                    @foreach (var account in ViewBag.Accounts)
+                    {
+                        <option value="@account.AccountId"
+                                data-balance="@account.Balance">
+
+                            @account.Customer?.FullName
+                            - @account.AccountNumber
+                            (@account.AccountType)
+
+                        </option>
+                    }
+
+                </select>
+            </div>
+
+            <p class="balance-text">
+                Available Balance :
+                <span id="balanceText" class="balance-value">₹ 0</span>
+            </p>
+
+            <!-- Transfer Type -->
+
+            <div class="form-group">
+                <label>Transfer Type</label>
+
+                <select id="transferType"
+                        name="transferType"
+                        class="form-control"
+                        onchange="toggleTransfer()">
+
+                    <option value="internal">Internal (Same Bank)</option>
+                    <option value="external">External (Other Bank)</option>
+
+                </select>
+            </div>
+
+            <!-- Internal Transfer -->
+
+            <div class="form-group" id="internalSection">
+
+                <label>To Account</label>
+
+                <select id="toAccountId"
+                        name="toAccountId"
+                        class="form-control"
+                        onchange="checkSameAccount()">
+
+                    <option value="">-- Select Receiver --</option>
+
+                    @foreach (var account in ViewBag.Accounts)
+                    {
+                        <option value="@account.AccountId">
+
+                            @account.Customer?.FullName
+                            - @account.AccountNumber
+
+                        </option>
+                    }
+
+                </select>
+
+            </div>
+
+            <!-- External Transfer -->
+
+            <div id="externalSection" style="display:none">
+
+                <div class="form-group">
+                    <label>Select Bank</label>
+
+                    <select name="BankName" class="form-control">
+
+                        <option>HDFC Bank</option>
+                        <option>ICICI Bank</option>
+                        <option>SBI</option>
+                        <option>Axis Bank</option>
+                        <option>Kotak Bank</option>
+
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Receiver Account Number</label>
+
+                    <input type="text"
+                           name="ExternalAccountNumber"
+                           class="form-control" />
+                </div>
+
+            </div>
+
+            <!-- Amount -->
+
+            <div class="form-group">
+                <label>Amount</label>
+
+                <input type="number"
+                       id="amount"
+                       name="amount"
+                       class="form-control"
+                       onkeyup="checkBalance()" />
+            </div>
+
+            <button type="submit" class="transfer-btn" id="transferBtn">
+                Transfer Money
+            </button>
+
+        </form>
+
     </div>
 
-    <button type="submit" class="btn btn-primary">Transfer</button>
+</div>
+<style>
+    .transfer-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
 
-</form>
+    .transfer-card {
+        width: 450px;
+        background: white;
+        padding: 30px;
+        border-radius: 14px;
+        box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+        animation: fadeIn 0.5s ease;
+    }
+
+    .transfer-title {
+        text-align: center;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+
+    .form-group {
+        margin-bottom: 18px;
+    }
+
+    .balance-text {
+        color: #2563eb;
+        font-weight: 500;
+    }
+
+    .balance-value {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .transfer-btn {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        background: linear-gradient(135deg,#2563eb,#1e40af);
+        color: white;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+
+        .transfer-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+    .success-box {
+        animation: slideDown 0.4s ease;
+    }
+
+    @@keyframes fadeIn {
+        from
+
+    {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    }
+
+   @@keyframes slideDown {
+        from
+
+    {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    }
+</style>
+
+
+<script>
+
+            function showBalance() {
+
+        var dropdown = document.getElementById("fromAccountId");
+        var selectedOption = dropdown.options[dropdown.selectedIndex];
+
+        if (!selectedOption || selectedOption.value === "") {
+            document.getElementById("balanceText").innerText = "₹ 0";
+            return;
+        }
+
+        var balance = selectedOption.dataset.balance;
+
+        document.getElementById("balanceText").innerText =
+            "₹ " + Number(balance).toLocaleString();
+    }
+    function toggleTransfer(){
+
+    let type=document.getElementById("transferType").value;
+
+    if(type==="external"){
+    document.getElementById("internalSection").style.display="none";
+    document.getElementById("externalSection").style.display="block";
+    }
+    else{
+    document.getElementById("internalSection").style.display="block";
+    document.getElementById("externalSection").style.display="none";
+    }
+
+    }
+
+
+    function checkSameAccount(){
+
+    let from=document.getElementById("fromAccountId").value;
+    let to=document.getElementById("toAccountId").value;
+
+    if(from===to && from!==""){
+    alert("❌ Cannot transfer to the same account");
+    document.getElementById("toAccountId").value="";
+    }
+
+    }
+
+
+    function checkBalance(){
+
+    let select=document.getElementById("fromAccountId");
+
+    if(select.selectedIndex===0) return;
+
+    let balance=select.options[select.selectedIndex].dataset.balance;
+
+    let amount=document.getElementById("amount").value;
+
+    if(Number(amount)>Number(balance)){
+    alert("⚠ Insufficient Balance");
+    }
+
+    }
+
+
+    function showLoader(){
+
+    let btn=document.getElementById("transferBtn");
+
+    btn.innerText="Processing...";
+    btn.disabled=true;
+
+    }
+
+    
+
+</script>

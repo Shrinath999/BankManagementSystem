@@ -3,6 +3,7 @@
     public class Transaction
     {
         public int TransactionId { get; set; }
+        public string? TxnNumber { get; set; }   // Bank Transaction Number
 
         public int? FromAccountId { get; set; }
         public int? ToAccountId { get; set; }
@@ -21,5 +22,8 @@
         public string? ExternalBankName { get; set; }
         public string? ExternalAccountNumber { get; set; }
         public string TransferType { get; set; }
+        public string? ReceiverName { get; set; }
+
+        public string? SenderName { get; set; }
     }
 }

@@ -68,9 +68,7 @@
                                 @foreach (var account in ViewBag.Accounts)
                                 {
                                     <option value="@account.AccountId">
-                                        @account.AccountNumber
-                                        (@account.AccountType)
-                                        - Balance: ₹ @account.Balance
+                                        @account.Customer?.FullName - @account.AccountNumber (@account.AccountType)
                                     </option>
                                 }
                             </select>

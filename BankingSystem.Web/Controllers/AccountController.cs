@@ -3,6 +3,7 @@ using BankingSystem.BLL.Services;
 using BankingSystem.Entities.Models;
 using BankingSystem.DAL.Repositorie;
 using static BankingSystem.DAL.Repositorie.IGenericRepository;
+using Microsoft.EntityFrameworkCore;
 
 namespace BankingSystem.Web.Controllers
 {
@@ -48,5 +49,6 @@ namespace BankingSystem.Web.Controllers
                 return View(account);
             }
         }
+       
     }
 }

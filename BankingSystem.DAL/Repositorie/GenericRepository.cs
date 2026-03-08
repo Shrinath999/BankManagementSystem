@@ -1,4 +1,5 @@
-﻿using BankingSystem.DAL.Data;
+﻿using System.Linq.Expressions;
+using BankingSystem.DAL.Data;
 using Microsoft.EntityFrameworkCore;
 using static BankingSystem.DAL.Repositorie.IGenericRepository;
 
@@ -43,6 +44,17 @@ namespace BankingSystem.DAL.Repositorie
         public async Task SaveAsync()
         {
             await _context.SaveChangesAsync();
+        }
+        public async Task<IEnumerable<T>> GetAllIncludingAsync(params Expression<Func<T, object>>[] includeProperties)
+        {
+            IQueryable<T> query = _context.Set<T>();
+
+            foreach (var includeProperty in includeProperties)
+            {
+                query = query.Include(includeProperty);
+            }
+
+            return await query.ToListAsync();
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace BankingSystem.DAL.Repositorie
+﻿using System.Linq.Expressions;
+
+namespace BankingSystem.DAL.Repositorie
 {
     public interface IGenericRepository
     {
@@ -11,6 +13,8 @@
             void Update(T entity);
             void Delete(T entity);
             Task SaveAsync();
+            Task<IEnumerable<T>> GetAllIncludingAsync(params Expression<Func<T, object>>[] includeProperties);
+           
         }
     }
 }

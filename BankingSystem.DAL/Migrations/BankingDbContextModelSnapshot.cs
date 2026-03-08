@@ -119,6 +119,12 @@ namespace BankingSystem.DAL.Migrations
                     b.Property<int?>("FromAccountId")
                         .HasColumnType("int");
 
+                    b.Property<string>("ReceiverName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SenderName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -132,6 +138,9 @@ namespace BankingSystem.DAL.Migrations
 
                     b.Property<string>("TransferType")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TxnNumber")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("TransactionId");
