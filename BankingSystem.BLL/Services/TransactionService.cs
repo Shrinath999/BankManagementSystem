@@ -126,13 +126,12 @@ namespace BankingSystem.BLL.Services
             var transactions = await _transactionRepo.GetAllAsync();
 
             return transactions
-                .Where(t => t.FromAccountId == accountId
-                         || t.ToAccountId == accountId)
-                .OrderBy(t => t.CreatedDate)   // ascending order
+                .Where(t => t.FromAccountId == accountId || t.ToAccountId == accountId)
+                .OrderByDescending(t => t.CreatedDate)
                 .ToList();
         }
 
-        public async Task ProcessTransferAsync(
+        public async Task<int> ProcessTransferAsync(
      int fromAccountId,
      int? toAccountId,
      decimal amount,
@@ -140,59 +139,72 @@ namespace BankingSystem.BLL.Services
      string externalAccountNumber,
      string bankName)
         {
-            var fromAccount = await _accountRepo.GetByIdAsync(fromAccountId);
+            if (transferType == "internal" && fromAccountId == toAccountId)
+                throw new Exception("Cannot transfer to the same account");
+
+            // Load sender account with customer
+            var accounts = await _accountRepo.GetAllIncludingAsync(a => a.Customer);
+
+            var fromAccount = accounts.FirstOrDefault(a => a.AccountId == fromAccountId);
 
             if (fromAccount == null)
-                throw new Exception("Account not found");
+                throw new Exception("Sender account not found");
 
             if (fromAccount.Balance < amount)
                 throw new Exception("Insufficient Balance");
 
-            // Deduct balance
-            fromAccount.Balance -= amount;
-            _accountRepo.Update(fromAccount);
+            string senderName = fromAccount.Customer?.FullName ?? "Unknown Sender";
+            string receiverName = "";
 
-            // Internal transfer → add to receiver
+            Account toAccount = null;
+
             if (transferType == "internal" && toAccountId.HasValue)
             {
-                var toAccount = await _accountRepo.GetByIdAsync(toAccountId.Value);
+                toAccount = accounts.FirstOrDefault(a => a.AccountId == toAccountId.Value);
 
                 if (toAccount == null)
                     throw new Exception("Receiver account not found");
 
+                receiverName = toAccount.Customer?.FullName ?? "Unknown Receiver";
+
+                // Credit receiver
                 toAccount.Balance += amount;
                 _accountRepo.Update(toAccount);
             }
+            else
+            {
+                receiverName = externalAccountNumber + " (" + bankName + ")";
+            }
 
-           
+            // Debit sender
+            fromAccount.Balance -= amount;
+            _accountRepo.Update(fromAccount);
 
-            // 🔥 VERY IMPORTANT — Set TransferType properly
+            await _accountRepo.SaveAsync();
+
             var transaction = new Transaction
             {
+                TxnNumber = "TXN" + DateTime.Now.Ticks,
                 FromAccountId = fromAccountId,
                 ToAccountId = transferType == "internal" ? toAccountId : null,
                 Amount = amount,
-
-                // This is existing column
                 TransactionType = transferType == "external"
                                     ? "ExternalTransfer"
                                     : "InternalTransfer",
-
-                // 🔥 This is the NEW NOT NULL column
                 TransferType = transferType,
-
                 Status = "Success",
                 CreatedDate = DateTime.Now,
-                ExternalAccountNumber = transferType == "external"
-                                            ? externalAccountNumber
-                                            : null,
-                ExternalBankName = transferType == "external"
-                                            ? bankName
-                                            : null
+                SenderName = senderName,
+                ReceiverName = receiverName,
+                ExternalAccountNumber = transferType == "external" ? externalAccountNumber : null,
+                ExternalBankName = transferType == "external" ? bankName : null
             };
 
             await _transactionRepo.InsertAsync(transaction);
             await _transactionRepo.SaveAsync();
+
+            return transaction.TransactionId;
         }
     }
+       
 }

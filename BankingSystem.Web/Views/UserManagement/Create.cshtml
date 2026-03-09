@@ -20,10 +20,16 @@
             <option value="">-- Select Role --</option>
             @foreach (var role in ViewBag.Roles)
             {
+
                 <option value="@role.Name">@role.Name</option>
             }
         </select>
     </div>
+
+
+     <button type="submit" class="btn btn-success mt-3">
+        👤 Create
+     </button>
 
    <a asp-action="Index" class="btn btn-secondary mt-3">
         ⬅ Back to User List

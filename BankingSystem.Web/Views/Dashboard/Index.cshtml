@@ -1,10 +1,14 @@
-﻿<div class="dashboard-header mb-4">
+﻿@model IEnumerable<BankingSystem.Entities.Models.Transaction>
+
+<div class="dashboard-header mb-4">
 
     <h2>📊 Banking Dashboard</h2>
 
-    <span class="welcome-text">
-        Welcome to Core Banking System
-    </span>
+    <div class="welcome-banner">
+        <div class="bounce-text">
+            Welcome Admin | Core Banking System | Developed by Shrinath Deshpande
+        </div>
+    </div>
 
 </div>
 
@@ -141,10 +145,50 @@
             </a>
 
         </div>
+        </div>
+        <hr />
+
+        <h4>Recent Transactions</h4>
+
+        <table class="table table-striped">
+
+            <thead class="table-dark">
+
+                <tr>
+                    <th>Date</th>
+                    <th>Type</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var txn in Model)
+                    {
+                        <tr>
+                            <td>@txn.CreatedDate.ToString("dd MMM yyyy")</td>
+                            <td>@txn.TransactionType</td>
+                            <td>₹ @txn.Amount</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="3" class="text-center">No transactions found</td>
+                    </tr>
+                }
+               
+
+            </tbody>
+
+        </table>
 
     </div>
 
-</div>
+
 @* <script>
 
 	function toggleTransactions(){

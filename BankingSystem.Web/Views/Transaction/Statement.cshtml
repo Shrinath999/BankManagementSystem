@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<BankingSystem.Entities.Models.Transaction>
 
+
 @{
     ViewData["Title"] = "Account Statement";
 }
@@ -14,13 +15,16 @@
             <label>Account</label>
             <select name="accountId" class="form-control" required>
                 <option value="">-- Select Account --</option>
-                @foreach (var account in ViewBag.Accounts)
+                @if (ViewBag.Accounts != null)
                 {
-                    <option value="@account.AccountId"
-                            selected="@(ViewBag.SelectedAccount == account.AccountId)">
-                        @account.AccountNumber - Balance: @account.Balance
-                    </option>
+                    foreach (var account in ViewBag.Accounts)
+                    {
+                        <option value="@account.AccountId">
+                            @account.Customer?.FullName - @account.AccountNumber (@account.AccountType)
+                        </option>
+                    }
                 }
+                
             </select>
         </div>
 
@@ -79,7 +83,10 @@
         <thead>
             <tr>
                 <th>Date</th>
+                <th>Txn ID</th>
                 <th>Type</th>
+                <th>Sender</th>
+                <th>Receiver</th>
                 <th>Debit</th>
                 <th>Credit</th>
                 <th>Balance</th>
@@ -105,12 +112,21 @@
 
                 <tr>
                     <td>@txn.CreatedDate.ToString("dd-MM-yyyy HH:mm")</td>
+
+                    <td>@txn.TxnNumber</td>
+
                     <td>@txn.TransactionType</td>
-                    <td>@(debit > 0 ? debit : 0)</td>
-                    <td>@(credit > 0 ? credit : 0)</td>
+
+                    <td>@(string.IsNullOrEmpty(txn.SenderName) ? "-" : txn.SenderName)</td>
+
+                    <td>@(string.IsNullOrEmpty(txn.ReceiverName) ? "-" : txn.ReceiverName)</td>
+
+                    <td class="text-danger">@debit</td>
+
+                    <td class="text-success">@credit</td>
+
                     <td>₹ @runningBalance</td>
                 </tr>
-
                
                 
             }

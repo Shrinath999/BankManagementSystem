@@ -24,7 +24,7 @@ namespace BankingSystem.Web.Controllers
         // GET: Deposit Page
         public async Task<IActionResult> Deposit()
         {
-            ViewBag.Accounts = await _accountRepo.GetAllAsync();
+            ViewBag.Accounts = await _accountRepo.GetAllIncludingAsync(a => a.Customer);
             return View();
         }
 
@@ -40,7 +40,7 @@ namespace BankingSystem.Web.Controllers
             catch (Exception ex)
             {
                 ViewBag.Error = ex.Message;
-                ViewBag.Accounts = await _accountRepo.GetAllAsync();
+                ViewBag.Accounts = await _accountRepo.GetAllIncludingAsync(a => a.Customer);
                 return View();
             }
         }
@@ -48,7 +48,7 @@ namespace BankingSystem.Web.Controllers
         // GET: Withdraw Page
         public async Task<IActionResult> Withdraw()
         {
-            ViewBag.Accounts = await _accountRepo.GetAllAsync();
+            ViewBag.Accounts = await _accountRepo.GetAllIncludingAsync(a => a.Customer);
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace BankingSystem.Web.Controllers
             catch (Exception ex)
             {
                 ViewBag.Error = ex.Message;
-                ViewBag.Accounts = await _accountRepo.GetAllAsync();
+                ViewBag.Accounts = await _accountRepo.GetAllIncludingAsync(a => a.Customer);
                 return View();
             }
         }
@@ -72,33 +72,44 @@ namespace BankingSystem.Web.Controllers
         // GET: Transfer Page
         public async Task<IActionResult> Transfer()
         {
-            ViewBag.Accounts = await _accountRepo.GetAllAsync();
+            ViewBag.Accounts = await _accountRepo.GetAllIncludingAsync(a => a.Customer);
             return View();
         }
-
         [HttpPost]
         public async Task<IActionResult> Transfer(
-        int fromAccountId,
-        int? toAccountId,
-        string transferType,
-        string BankName,
-        string ExternalAccountNumber,
-        decimal amount)
+    int fromAccountId,
+    int? toAccountId,
+    string transferType,
+    string BankName,
+    string ExternalAccountNumber,
+    decimal amount)
         {
-            await _transactionService.ProcessTransferAsync(
-                fromAccountId,
-                toAccountId,
-                amount,
-                transferType,
-                ExternalAccountNumber,
-                BankName);
+            try
+            {
+                int txnId = await _transactionService.ProcessTransferAsync(
+                    fromAccountId,
+                    toAccountId,
+                    amount,
+                    transferType,
+                    ExternalAccountNumber,
+                    BankName);
 
-            return RedirectToAction("Index", "Dashboard");
+                TempData["Success"] = $"✅ Transaction Successful. Transaction ID: TXN{txnId}";
+
+                return RedirectToAction("Transfer");
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = ex.Message;
+                ViewBag.Accounts = await _accountRepo.GetAllIncludingAsync(a => a.Customer);
+                return View();
+            }
         }
+
         // GET: Statement
         public async Task<IActionResult> Statement(int? accountId, DateTime? fromDate, DateTime? toDate)
         {
-            ViewBag.Accounts = await _accountRepo.GetAllAsync();
+            ViewBag.Accounts = await _accountRepo.GetAllIncludingAsync(a => a.Customer);
 
             if (accountId == null)
                 return View();
@@ -106,9 +117,7 @@ namespace BankingSystem.Web.Controllers
             var statement = await _transactionService.GetAccountStatementAsync(accountId.Value);
 
             if (fromDate.HasValue)
-            {
                 statement = statement.Where(t => t.CreatedDate >= fromDate.Value.Date);
-            }
 
             if (toDate.HasValue)
             {
@@ -118,11 +127,11 @@ namespace BankingSystem.Web.Controllers
 
             statement = statement.OrderBy(t => t.CreatedDate);
 
-            
             var account = await _accountRepo.GetByIdAsync(accountId.Value);
 
+            ViewBag.CurrentBalance = account?.Balance ?? 0;
             ViewBag.SelectedAccount = accountId.Value;
-            ViewBag.CurrentBalance = account.Balance;
+            
             ViewBag.FromDate = fromDate;
             ViewBag.ToDate = toDate;
 
@@ -133,12 +142,12 @@ namespace BankingSystem.Web.Controllers
             var statement = await _transactionService.GetAccountStatementAsync(accountId);
 
             if (fromDate.HasValue)
-                statement = statement.Where(t => t.CreatedDate >= fromDate.Value.Date);
+                statement = statement.OrderBy(t => t.CreatedDate >= fromDate.Value.Date);
 
             if (toDate.HasValue)
             {
                 var endDate = toDate.Value.Date.AddDays(1).AddTicks(-1);
-                statement = statement.Where(t => t.CreatedDate <= endDate);
+                statement = statement.OrderBy(t => t.CreatedDate <= endDate);
             }
 
             var sb = new System.Text.StringBuilder();

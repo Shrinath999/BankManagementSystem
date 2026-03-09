@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BankingSystem.BLL.Services;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
 
 namespace BankingSystem.Web.Controllers
 {
@@ -21,7 +22,13 @@ namespace BankingSystem.Web.Controllers
             ViewBag.TotalTransactions = await _dashboardService.GetTotalTransactionsAsync();
             ViewBag.TotalBalance = await _dashboardService.GetTotalBalanceAsync();
 
-            return View();
+            var recentTransactions = await _dashboardService.GetRecentTransactionsAsync();
+
+            return View(recentTransactions);
         }
+
+
     }
+
+   
 }

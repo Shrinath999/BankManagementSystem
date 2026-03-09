@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SftHl3jt8DUtxKu7zsmcyrrdqdCJC4pBQUPDeW8oQ8w=",
+  "Hash": "02Q/cTXnZ5Z3/tXZr6MRrnDvgLzVg8dqhVo+yeiy95o=",
   "Source": "BankingSystem.Entities",
   "BasePath": "_content/BankingSystem.Entities",
   "Mode": "Default",
@@ -75,7 +75,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
+          "Value": "Sun, 08 Mar 2026 11:39:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -112,7 +112,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
+          "Value": "Sun, 08 Mar 2026 11:39:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -157,7 +157,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
+          "Value": "Sun, 08 Mar 2026 11:39:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -202,7 +202,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Mar 2026 06:16:04 GMT"
+          "Value": "Sun, 08 Mar 2026 11:39:24 GMT"
         },
         {
           "Name": "Cache-Control",
