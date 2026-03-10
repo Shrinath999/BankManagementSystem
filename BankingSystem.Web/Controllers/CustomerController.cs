@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BankingSystem.BLL.Services;
 using BankingSystem.Entities.Models;
-using BankingSystem.DAL.Repositorie;
 using Microsoft.AspNetCore.Authorization;
+
 namespace BankingSystem.Web.Controllers
 {
     [Authorize(Roles = "Admin")]
@@ -15,29 +15,62 @@ namespace BankingSystem.Web.Controllers
             _customerService = customerService;
         }
 
-        // GET: Customer List
+        // Customer List
         public async Task<IActionResult> Index()
         {
             var customers = await _customerService.GetAllCustomersAsync();
             return View(customers);
         }
 
-        // GET: Create Customer
+        // Create Customer
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Create Customer
-        [HttpPost]
-        public async Task<IActionResult> Create(Customer customer)
+        // Delete Customer
+        public async Task<IActionResult> Delete(int id)
         {
-            if (ModelState.IsValid)
-            {
-                await _customerService.CreateCustomerAsync(customer);
-                return RedirectToAction("Index");
-            }
+            await _customerService.DeleteCustomerAsync(id);
+            return RedirectToAction("Index");
+        }
+
+        // GET Edit
+        public async Task<IActionResult> Edit(int id)
+        {
+            var customer = await _customerService.GetCustomerByIdAsync(id);
+
+            if (customer == null)
+                return NotFound();
+
             return View(customer);
+        }
+
+        // POST Edit
+        [HttpPost]
+        public async Task<IActionResult> Edit(Customer customer, IFormFile ImageFile)
+        {
+            if (ImageFile != null)
+            {
+                string folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads/customers");
+
+                if (!Directory.Exists(folder))
+                    Directory.CreateDirectory(folder);
+
+                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageFile.FileName);
+                string filePath = Path.Combine(folder, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await ImageFile.CopyToAsync(stream);
+                }
+
+                customer.ProfileImage = fileName;
+            }
+
+            await _customerService.UpdateCustomerAsync(customer);
+
+            return RedirectToAction("Index");
         }
     }
 }

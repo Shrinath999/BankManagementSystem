@@ -1,0 +1,47 @@
+﻿@model BankingSystem.Entities.Models.Customer
+
+<h2>Edit Customer</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+
+    <input type="hidden" asp-for="CustomerId" />
+
+    <div class="mb-3">
+        <label>Full Name</label>
+        <input asp-for="FullName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Phone</label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Aadhaar Number</label>
+        <input asp-for="AadhaarNumber" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>PAN Number</label>
+        <input asp-for="PanNumber" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Customer Image</label>
+        <input type="file" name="ImageFile" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        Update Customer
+    </button>
+
+    <a asp-action="Index" class="btn btn-secondary">
+        Back
+    </a>
+
+</form>

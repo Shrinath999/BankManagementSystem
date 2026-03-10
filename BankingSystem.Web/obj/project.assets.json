@@ -4484,11 +4484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\BankingSystem.Web\\BankingSystem.Web\\BankingSystem.Web.csproj",
+      "projectUniqueName": "E:\\BankManagementSystem\\BankingSystem.Web\\BankingSystem.Web.csproj",
       "projectName": "BankingSystem.Web",
-      "projectPath": "E:\\BankingSystem.Web\\BankingSystem.Web\\BankingSystem.Web.csproj",
+      "projectPath": "E:\\BankManagementSystem\\BankingSystem.Web\\BankingSystem.Web.csproj",
       "packagesPath": "C:\\Users\\shrin\\.nuget\\packages\\",
-      "outputPath": "E:\\BankingSystem.Web\\BankingSystem.Web\\obj\\",
+      "outputPath": "E:\\BankManagementSystem\\BankingSystem.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4509,14 +4509,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\BankingSystem.Web\\BankingSystem.BLL\\BankingSystem.BLL.csproj": {
-              "projectPath": "E:\\BankingSystem.Web\\BankingSystem.BLL\\BankingSystem.BLL.csproj"
+            "E:\\BankManagementSystem\\BankingSystem.BLL\\BankingSystem.BLL.csproj": {
+              "projectPath": "E:\\BankManagementSystem\\BankingSystem.BLL\\BankingSystem.BLL.csproj"
             },
-            "E:\\BankingSystem.Web\\BankingSystem.Common\\BankingSystem.Common.csproj": {
-              "projectPath": "E:\\BankingSystem.Web\\BankingSystem.Common\\BankingSystem.Common.csproj"
+            "E:\\BankManagementSystem\\BankingSystem.Common\\BankingSystem.Common.csproj": {
+              "projectPath": "E:\\BankManagementSystem\\BankingSystem.Common\\BankingSystem.Common.csproj"
             },
-            "E:\\BankingSystem.Web\\BankingSystem.Entities\\BankingSystem.Entities.csproj": {
-              "projectPath": "E:\\BankingSystem.Web\\BankingSystem.Entities\\BankingSystem.Entities.csproj"
+            "E:\\BankManagementSystem\\BankingSystem.Entities\\BankingSystem.Entities.csproj": {
+              "projectPath": "E:\\BankManagementSystem\\BankingSystem.Entities\\BankingSystem.Entities.csproj"
             }
           }
         }

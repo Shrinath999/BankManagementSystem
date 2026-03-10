@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "02Q/cTXnZ5Z3/tXZr6MRrnDvgLzVg8dqhVo+yeiy95o=",
+  "Hash": "M3R+Cv+zrVaIPzNp2E1Edl3264ovy52TQ5aJ9PlaDNw=",
   "Source": "BankingSystem.Entities",
   "BasePath": "_content/BankingSystem.Entities",
   "Mode": "Default",
@@ -9,10 +9,10 @@
   "DiscoveryPatterns": [],
   "Assets": [
     {
-      "Identity": "E:\\BankingSystem.Web\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BankingSystem.Entities.styles.css",
+      "Identity": "E:\\BankManagementSystem\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BankingSystem.Entities.styles.css",
       "SourceId": "BankingSystem.Entities",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\BankingSystem.Web\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\BankManagementSystem\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BankingSystem.Entities",
       "RelativePath": "BankingSystem.Entities#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -27,13 +27,13 @@
       "Integrity": "4Gq9qBr4UbxlRCHP9Hig2/pvzZxOlUWO+sQjElm1ZSs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\BankingSystem.Web\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BankingSystem.Entities.styles.css"
+      "OriginalItemSpec": "E:\\BankManagementSystem\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BankingSystem.Entities.styles.css"
     },
     {
-      "Identity": "E:\\BankingSystem.Web\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BankingSystem.Entities.bundle.scp.css",
+      "Identity": "E:\\BankManagementSystem\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BankingSystem.Entities.bundle.scp.css",
       "SourceId": "BankingSystem.Entities",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\BankingSystem.Web\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\BankManagementSystem\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BankingSystem.Entities",
       "RelativePath": "BankingSystem.Entities#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "Integrity": "4Gq9qBr4UbxlRCHP9Hig2/pvzZxOlUWO+sQjElm1ZSs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\BankingSystem.Web\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BankingSystem.Entities.bundle.scp.css"
+      "OriginalItemSpec": "E:\\BankManagementSystem\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BankingSystem.Entities.bundle.scp.css"
     }
   ],
   "Endpoints": [
     {
       "Route": "BankingSystem.Entities.bundle.scp.css",
-      "AssetFile": "E:\\BankingSystem.Web\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BankingSystem.Entities.bundle.scp.css",
+      "AssetFile": "E:\\BankManagementSystem\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BankingSystem.Entities.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -75,7 +75,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Mar 2026 11:39:24 GMT"
+          "Value": "Mon, 09 Mar 2026 14:16:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -91,7 +91,7 @@
     },
     {
       "Route": "BankingSystem.Entities.kv7s4wh1kv.bundle.scp.css",
-      "AssetFile": "E:\\BankingSystem.Web\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BankingSystem.Entities.bundle.scp.css",
+      "AssetFile": "E:\\BankManagementSystem\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BankingSystem.Entities.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -112,7 +112,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Mar 2026 11:39:24 GMT"
+          "Value": "Mon, 09 Mar 2026 14:16:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -136,7 +136,7 @@
     },
     {
       "Route": "BankingSystem.Entities.kv7s4wh1kv.styles.css",
-      "AssetFile": "E:\\BankingSystem.Web\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BankingSystem.Entities.styles.css",
+      "AssetFile": "E:\\BankManagementSystem\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BankingSystem.Entities.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -157,7 +157,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Mar 2026 11:39:24 GMT"
+          "Value": "Mon, 09 Mar 2026 14:16:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -181,7 +181,7 @@
     },
     {
       "Route": "BankingSystem.Entities.styles.css",
-      "AssetFile": "E:\\BankingSystem.Web\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BankingSystem.Entities.styles.css",
+      "AssetFile": "E:\\BankManagementSystem\\BankingSystem.Entities\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BankingSystem.Entities.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -202,7 +202,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Mar 2026 11:39:24 GMT"
+          "Value": "Mon, 09 Mar 2026 14:16:43 GMT"
         },
         {
           "Name": "Cache-Control",

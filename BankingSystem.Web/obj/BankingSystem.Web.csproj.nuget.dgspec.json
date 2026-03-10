@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BankingSystem.Web\\BankingSystem.Web\\BankingSystem.Web.csproj": {}
+    "E:\\BankManagementSystem\\BankingSystem.Web\\BankingSystem.Web.csproj": {}
   },
   "projects": {
-    "E:\\BankingSystem.Web\\BankingSystem.BLL\\BankingSystem.BLL.csproj": {
+    "E:\\BankManagementSystem\\BankingSystem.BLL\\BankingSystem.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BankingSystem.Web\\BankingSystem.BLL\\BankingSystem.BLL.csproj",
+        "projectUniqueName": "E:\\BankManagementSystem\\BankingSystem.BLL\\BankingSystem.BLL.csproj",
         "projectName": "BankingSystem.BLL",
-        "projectPath": "E:\\BankingSystem.Web\\BankingSystem.BLL\\BankingSystem.BLL.csproj",
+        "projectPath": "E:\\BankManagementSystem\\BankingSystem.BLL\\BankingSystem.BLL.csproj",
         "packagesPath": "C:\\Users\\shrin\\.nuget\\packages\\",
-        "outputPath": "E:\\BankingSystem.Web\\BankingSystem.BLL\\obj\\",
+        "outputPath": "E:\\BankManagementSystem\\BankingSystem.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\BankingSystem.Web\\BankingSystem.Common\\BankingSystem.Common.csproj": {
-                "projectPath": "E:\\BankingSystem.Web\\BankingSystem.Common\\BankingSystem.Common.csproj"
+              "E:\\BankManagementSystem\\BankingSystem.Common\\BankingSystem.Common.csproj": {
+                "projectPath": "E:\\BankManagementSystem\\BankingSystem.Common\\BankingSystem.Common.csproj"
               },
-              "E:\\BankingSystem.Web\\BankingSystem.DAL\\BankingSystem.DAL.csproj": {
-                "projectPath": "E:\\BankingSystem.Web\\BankingSystem.DAL\\BankingSystem.DAL.csproj"
+              "E:\\BankManagementSystem\\BankingSystem.DAL\\BankingSystem.DAL.csproj": {
+                "projectPath": "E:\\BankManagementSystem\\BankingSystem.DAL\\BankingSystem.DAL.csproj"
               },
-              "E:\\BankingSystem.Web\\BankingSystem.Entities\\BankingSystem.Entities.csproj": {
-                "projectPath": "E:\\BankingSystem.Web\\BankingSystem.Entities\\BankingSystem.Entities.csproj"
+              "E:\\BankManagementSystem\\BankingSystem.Entities\\BankingSystem.Entities.csproj": {
+                "projectPath": "E:\\BankManagementSystem\\BankingSystem.Entities\\BankingSystem.Entities.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "E:\\BankingSystem.Web\\BankingSystem.Common\\BankingSystem.Common.csproj": {
+    "E:\\BankManagementSystem\\BankingSystem.Common\\BankingSystem.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BankingSystem.Web\\BankingSystem.Common\\BankingSystem.Common.csproj",
+        "projectUniqueName": "E:\\BankManagementSystem\\BankingSystem.Common\\BankingSystem.Common.csproj",
         "projectName": "BankingSystem.Common",
-        "projectPath": "E:\\BankingSystem.Web\\BankingSystem.Common\\BankingSystem.Common.csproj",
+        "projectPath": "E:\\BankManagementSystem\\BankingSystem.Common\\BankingSystem.Common.csproj",
         "packagesPath": "C:\\Users\\shrin\\.nuget\\packages\\",
-        "outputPath": "E:\\BankingSystem.Web\\BankingSystem.Common\\obj\\",
+        "outputPath": "E:\\BankManagementSystem\\BankingSystem.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -150,14 +150,14 @@
         }
       }
     },
-    "E:\\BankingSystem.Web\\BankingSystem.DAL\\BankingSystem.DAL.csproj": {
+    "E:\\BankManagementSystem\\BankingSystem.DAL\\BankingSystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BankingSystem.Web\\BankingSystem.DAL\\BankingSystem.DAL.csproj",
+        "projectUniqueName": "E:\\BankManagementSystem\\BankingSystem.DAL\\BankingSystem.DAL.csproj",
         "projectName": "BankingSystem.DAL",
-        "projectPath": "E:\\BankingSystem.Web\\BankingSystem.DAL\\BankingSystem.DAL.csproj",
+        "projectPath": "E:\\BankManagementSystem\\BankingSystem.DAL\\BankingSystem.DAL.csproj",
         "packagesPath": "C:\\Users\\shrin\\.nuget\\packages\\",
-        "outputPath": "E:\\BankingSystem.Web\\BankingSystem.DAL\\obj\\",
+        "outputPath": "E:\\BankManagementSystem\\BankingSystem.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -178,11 +178,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\BankingSystem.Web\\BankingSystem.Common\\BankingSystem.Common.csproj": {
-                "projectPath": "E:\\BankingSystem.Web\\BankingSystem.Common\\BankingSystem.Common.csproj"
+              "E:\\BankManagementSystem\\BankingSystem.Common\\BankingSystem.Common.csproj": {
+                "projectPath": "E:\\BankManagementSystem\\BankingSystem.Common\\BankingSystem.Common.csproj"
               },
-              "E:\\BankingSystem.Web\\BankingSystem.Entities\\BankingSystem.Entities.csproj": {
-                "projectPath": "E:\\BankingSystem.Web\\BankingSystem.Entities\\BankingSystem.Entities.csproj"
+              "E:\\BankManagementSystem\\BankingSystem.Entities\\BankingSystem.Entities.csproj": {
+                "projectPath": "E:\\BankManagementSystem\\BankingSystem.Entities\\BankingSystem.Entities.csproj"
               }
             }
           }
@@ -245,14 +245,14 @@
         }
       }
     },
-    "E:\\BankingSystem.Web\\BankingSystem.Entities\\BankingSystem.Entities.csproj": {
+    "E:\\BankManagementSystem\\BankingSystem.Entities\\BankingSystem.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BankingSystem.Web\\BankingSystem.Entities\\BankingSystem.Entities.csproj",
+        "projectUniqueName": "E:\\BankManagementSystem\\BankingSystem.Entities\\BankingSystem.Entities.csproj",
         "projectName": "BankingSystem.Entities",
-        "projectPath": "E:\\BankingSystem.Web\\BankingSystem.Entities\\BankingSystem.Entities.csproj",
+        "projectPath": "E:\\BankManagementSystem\\BankingSystem.Entities\\BankingSystem.Entities.csproj",
         "packagesPath": "C:\\Users\\shrin\\.nuget\\packages\\",
-        "outputPath": "E:\\BankingSystem.Web\\BankingSystem.Entities\\obj\\",
+        "outputPath": "E:\\BankManagementSystem\\BankingSystem.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -313,14 +313,14 @@
         }
       }
     },
-    "E:\\BankingSystem.Web\\BankingSystem.Web\\BankingSystem.Web.csproj": {
+    "E:\\BankManagementSystem\\BankingSystem.Web\\BankingSystem.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BankingSystem.Web\\BankingSystem.Web\\BankingSystem.Web.csproj",
+        "projectUniqueName": "E:\\BankManagementSystem\\BankingSystem.Web\\BankingSystem.Web.csproj",
         "projectName": "BankingSystem.Web",
-        "projectPath": "E:\\BankingSystem.Web\\BankingSystem.Web\\BankingSystem.Web.csproj",
+        "projectPath": "E:\\BankManagementSystem\\BankingSystem.Web\\BankingSystem.Web.csproj",
         "packagesPath": "C:\\Users\\shrin\\.nuget\\packages\\",
-        "outputPath": "E:\\BankingSystem.Web\\BankingSystem.Web\\obj\\",
+        "outputPath": "E:\\BankManagementSystem\\BankingSystem.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -341,14 +341,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\BankingSystem.Web\\BankingSystem.BLL\\BankingSystem.BLL.csproj": {
-                "projectPath": "E:\\BankingSystem.Web\\BankingSystem.BLL\\BankingSystem.BLL.csproj"
+              "E:\\BankManagementSystem\\BankingSystem.BLL\\BankingSystem.BLL.csproj": {
+                "projectPath": "E:\\BankManagementSystem\\BankingSystem.BLL\\BankingSystem.BLL.csproj"
               },
-              "E:\\BankingSystem.Web\\BankingSystem.Common\\BankingSystem.Common.csproj": {
-                "projectPath": "E:\\BankingSystem.Web\\BankingSystem.Common\\BankingSystem.Common.csproj"
+              "E:\\BankManagementSystem\\BankingSystem.Common\\BankingSystem.Common.csproj": {
+                "projectPath": "E:\\BankManagementSystem\\BankingSystem.Common\\BankingSystem.Common.csproj"
               },
-              "E:\\BankingSystem.Web\\BankingSystem.Entities\\BankingSystem.Entities.csproj": {
-                "projectPath": "E:\\BankingSystem.Web\\BankingSystem.Entities\\BankingSystem.Entities.csproj"
+              "E:\\BankManagementSystem\\BankingSystem.Entities\\BankingSystem.Entities.csproj": {
+                "projectPath": "E:\\BankManagementSystem\\BankingSystem.Entities\\BankingSystem.Entities.csproj"
               }
             }
           }

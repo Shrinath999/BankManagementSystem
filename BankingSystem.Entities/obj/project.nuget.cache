@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ztsWTI9uJmA=",
+  "dgSpecHash": "ZRykacA8hoY=",
   "success": true,
-  "projectFilePath": "E:\\BankingSystem.Web\\BankingSystem.Entities\\BankingSystem.Entities.csproj",
+  "projectFilePath": "E:\\BankManagementSystem\\BankingSystem.Entities\\BankingSystem.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
